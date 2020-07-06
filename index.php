@@ -3,9 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Kevin with Gayathri Official">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Primary Meta Tags -->
+<title>Gayathri with Kevin Hot</title>
+<meta name="title" content="Gayathri with Kevin Hot">
+<meta name="description" content="All the fun videos of Kevin's Aunt love fantasies  ...">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://metatags.io/">
+<meta property="og:title" content="Gayathri with Kevin Hot">
+<meta property="og:description" content="All the fun videos of Kevin's Aunt love fantasies  ...">
+<meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://metatags.io/">
+<meta property="twitter:title" content="Gayathri with Kevin Hot">
+<meta property="twitter:description" content="All the fun videos of Kevin's Aunt love fantasies  ...">
+<meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
   <meta name="author" content="MNK">
     <title>Kevin with Gayathri</title>
 
