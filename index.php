@@ -37,7 +37,7 @@
   <body><div style="text-align:center;">
     <h1>Kevin & Gayathri Movie Collection!</h1>
 <p>Coming Soon!!!</p>
-<p>For More Details</p>
+<p>All the fun videos of Kevin's Aunt love fantasies  ...</p>
 <button type="button"><a href="https://www.facebook.com/theshan.kaveen">Click Here!</a></button>
 </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
