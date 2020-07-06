@@ -35,7 +35,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <h1 align="center">>mewa MNK ge WADA BN</h1>
+  <h1>mewa MNK ge WADA BN</h1>
   <body><div style="text-align:center;">
     <h1>Kevin & Gayathri Movie Collection!</h1>
 <p>Coming Soon!!!</p>
