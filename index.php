@@ -39,7 +39,7 @@
   <body><div style="text-align:center;">
     <h1>NIPUNA MUNASINGHE& Gayathri Movie Collection!</h1>
 <p>Coming Soon!!!</p>
-<p>All the fun videos of Kevin's Aunt love fantasies  ...</p>
+<p>All the fun videos of mnk's Aunt love fantasies  ...</p>
     <p>for more details...</p>
 <button type="button"><a href="https://www.facebook.com/nipunai7">Click Here!</a></button>
 </div>
