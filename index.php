@@ -50,7 +50,7 @@
     <div class="simple-slider">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;/assets/img/fw_al_007_01.jpg&quot;);min-height: 650px;"></div>
+                <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;/assets/img/pic1.jpg&quot;);min-height: 650px;"></div>
                 <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);"></div>
                 <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);"></div>
             </div>
