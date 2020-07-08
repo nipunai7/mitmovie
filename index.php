@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="/assets/css/Swipe-Slider-9.css">
 </head>
 
-<body style="background-color: black;" >
+<body  >
     <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark" data-bs-hover-animate="flash">
         <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
@@ -59,7 +59,7 @@
             <div class="swiper-button-next"></div>
         </div>
     </div>
-    <div class="article-list"  >
+    <div class="article-list"  style="background-color: black;">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center" data-aos="zoom-in-down" data-aos-once="true">Latest Movies</h2>
