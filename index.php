@@ -59,7 +59,7 @@
             <div class="swiper-button-next"></div>
         </div>
     </div>
-    <div class="article-list">
+    <div class="article-list" style="background-color: black" >
         <div class="container">
             <div class="intro">
                 <h2 class="text-center" data-aos="zoom-in-down" data-aos-once="true">Latest Movies</h2>
