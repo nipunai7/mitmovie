@@ -134,7 +134,7 @@
                                         </div>
                                         <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
                                     </div>
-                                    <p class="copyright">Company Name © 2017</p>
+                                    <p class="copyright">Kevin Linro © 2014</p>
                                 </div>
                             </footer>
                         </div>
