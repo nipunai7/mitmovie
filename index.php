@@ -35,10 +35,10 @@
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav flex-grow-1 justify-content-between">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="fa fa-apple apple-logo"></i></a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Mac</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">iPad</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">iPhone</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Watch</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Service</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">TV</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">Music</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">Support</a></li>
