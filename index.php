@@ -51,7 +51,7 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;/assets/img/pic3.jpg&quot;);min-height: 950px;"></div>
-                <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);"></div>
+                <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;/assets/img/SW.jpg&quot;);min-height: 950px;"></div>
                 <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);"></div>
             </div>
             <div class="swiper-pagination"></div>
@@ -80,27 +80,27 @@
                 <h3 class="name">Article Title</h3>
                 <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
         <div
-            class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/desk.jpg"></a>
+            class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/BAT.jpg"></a>
             <h3 class="name">Article Title</h3>
             <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
     <div
-        class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/desk.jpg"></a>
+        class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/FF.jpg"></a>
         <h3 class="name">Article Title</h3>
         <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
         <div
-            class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/desk.jpg"></a>
+            class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/MON.jpg"></a>
             <h3 class="name">Article Title</h3>
             <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
             <div
-                class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/desk.jpg"></a>
+                class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/REV.jpg"></a>
                 <h3 class="name">Article Title</h3>
                 <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/building.jpg"></a>
+                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/TUR.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                     <div
-                        class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/loft.jpg"></a>
+                        class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/JL.jpg"></a>
                         <h3 class="name">Article Title</h3>
                         <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                         </div>
