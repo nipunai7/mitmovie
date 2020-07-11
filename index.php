@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<title>SLIMDB</title>
+    <title>SLIMDB</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Untitled</title>
@@ -61,7 +61,7 @@
         </div>
     </div>
     <div class="article-list"  style="background-color: black;">
-        <div class="container" style="width='1920' ; height='1080'" >
+        <div class="container" style="width='1920' : height='1080'" >
             <div class="intro">
                 <h2 class="text-center" data-aos="zoom-in-down" data-aos-once="true">Latest Movies</h2>
                 <p class="text-center" data-aos="zoom-in-down" data-aos-once="true">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
