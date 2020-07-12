@@ -1,37 +1,8 @@
-<!DOCTYPE html>
-<html>
+<?php 
 
-<head>
-    <title>SLIMDB</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Untitled</title>
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
-    <link rel="stylesheet" href="/assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="/assets/css/Article-List.css">
-    <link rel="stylesheet" href="/assets/css/Carousel_Image_Slider-1.css">
-    <link rel="stylesheet" href="/assets/css/Carousel_Image_Slider.css">
-    <link rel="stylesheet" href="/assets/css/Footer-Dark.css">
-    <link rel="stylesheet" href="/assets/css/Header---Apple.css">
-    <link rel="stylesheet" href="/assets/css/Header-Dark.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="/assets/css/Lightbox-Gallery.css">
-    <link rel="stylesheet" href="/assets/css/News-Cards.css">
-    <link rel="stylesheet" href="/assets/css/Simple-Slider.css">
-    <link rel="stylesheet" href="/assets/css/sticky-dark-top-nav-with-dropdown.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/Swipe-Slider-9.css">
+include ('header.php');
 
-    
-
-</head>
+?>
 
 <body  >
     <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark" data-bs-hover-animate="flash">
