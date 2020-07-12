@@ -37,7 +37,7 @@
                 <ul class="nav navbar-nav flex-grow-1 justify-content-between">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="fa fa-apple apple-logo"></i></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">Home</a></li>
-
+                    <!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#">About</a></li> -->
                     <!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#">Service</a></li> -->
                     <!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li> -->
                     <li class="nav-item" role="presentation"><a class="nav-link" href="login.html">Login</a></li>
