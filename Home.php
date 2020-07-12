@@ -50,7 +50,7 @@
     </nav>
     <div class="simple-slider">
         <div class="swiper-container">
-            <div class="swiper-wrapper"style="transition: all 0.25s ease 0s; width: 3540px; transform: translate3d(-1180px, 0px, 0px); >
+            <div class="swiper-wrapper"style="transition: all 0.25s ease 0s; width: 3540px; transform: translate3d(-1180px, 0px, 0px);" >
                 <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;/assets/img/pic3.jpg&quot;);min-height: 920px;"></div>
                 <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;/assets/img/SW.jpg&quot;);min-height: 920px;"></div>
                 <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;/assets/img/VEN.jpg&quot;);min-height: 920px;"></div>
