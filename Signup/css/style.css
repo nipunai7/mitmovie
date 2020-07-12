@@ -148,7 +148,7 @@ body {
   padding: 115px 0; }
 
 .container {
-  width: 660px;
+  /* width: 660px; */
   position: relative;
   /* background-color: #222; */
   margin: 0 auto; }
