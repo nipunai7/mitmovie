@@ -34,7 +34,7 @@
                         </div>
                     </form>
                     <p class="loginhere">
-                        Have already an account ? <a href="#" class="loginhere-link">Login here</a>
+                        Have already an account ? <a href="login.php" class="loginhere-link">Login here</a>
                     </p>
                 </div>
             </div>
@@ -43,7 +43,7 @@
     </div>
 
     <!-- JS -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
 </html>
