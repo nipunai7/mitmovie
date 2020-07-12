@@ -28,6 +28,9 @@
     <link rel="stylesheet" href="/assets/css/sticky-dark-top-nav-with-dropdown.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/Swipe-Slider-9.css">
+
+    <script src="js/main.js"></script>
+    
 </head>
 
 <body  >
