@@ -40,7 +40,7 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">About</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">Service</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Login</a></li>
                     <!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#">Music</a></li> -->
                     <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Sign Up</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="icon ion-ios-search-strong"></i></a></li>
