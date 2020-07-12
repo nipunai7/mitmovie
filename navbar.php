@@ -2,14 +2,14 @@
 				<div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
 					<div class="collapse navbar-collapse" id="navcol-1">
 						<ul class="nav navbar-nav flex-grow-1 justify-content-between">
-							<li class="nav-item" role="presentation"><a class="nav-link" href="Home.php"><i class="fa fa-apple apple-logo"></i></a></li>
-							<li class="nav-item" role="presentation"><a class="nav-link" href="Home.php">Home</a></li>
+							<li class="nav-item" role="presentation"><a class="nav-link" href="index.php"><i class="fa fa-apple apple-logo"></i></a></li>
+							<li class="nav-item" role="presentation"><a class="nav-link" href="index.php">Home</a></li>
 							<!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#">About</a></li> -->
 							<!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#">Service</a></li> -->
 							<!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li> -->
-							<li class="nav-item" role="presentation"><a class="nav-link" href="login.html">Login</a></li>
+							<li class="nav-item" role="presentation"><a class="nav-link" href="login.php">Login</a></li>
 							<!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#">Music</a></li> -->
-							<li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Sign Up</a></li>
+							<li class="nav-item" role="presentation"><a class="nav-link" href="signup.php">Sign Up</a></li>
 							<li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="icon ion-ios-search-strong"></i></a></li>
 						</ul>
 					</div>
