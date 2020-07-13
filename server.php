@@ -11,11 +11,11 @@ if ($db->connect_error) {
   }
   echo "Connected successfully";
 
-if(isset($_POST['sign up'])){
+if(isset($_POST['reg'])){
     $name = mysql_real_escape_string($_POST['name']);
     $email = mysql_real_escape_string($_POST['email']);
     $password_1 = mysql_real_escape_string($_POST['password']);
-    $password_2 = mysql_real_escape_string($_POST['re_password']);
+    $password_2 = mysql_real_escape_string($_POST['password-repeat']);
 
 if(empty($name)){
 	array_push($errors,"username is required");
@@ -35,7 +35,7 @@ if (count($errors==0)){
 	$sql= "INSERT INTO user(username, email, password) 
 	VALUES ('$name', '$email', '$password')";
 
-	mysqli_query($db, $sql);
+	mysqli_query($sql);
 	
 }
 
