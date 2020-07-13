@@ -5,9 +5,9 @@
     <div class="simple-slider">
         <div class="swiper-container">
             <div class="swiper-wrapper"style="transition: all 0.25s ease 0s; width: 3540px; transform: translate3d(-1180px, 0px, 0px);" >
-                <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;/assets/img/pic3.jpg&quot;);min-height: 920px;"></div>
-                <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;/assets/img/SW.jpg&quot;);min-height: 920px;"></div>
-                <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;/assets/img/VEN.jpg&quot;);min-height: 920px;"></div>
+                <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/pic3.jpg&quot;);min-height: 920px;"></div>
+                <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/SW.jpg&quot;);min-height: 920px;"></div>
+                <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/VEN.jpg&quot;);min-height: 920px;"></div>
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
@@ -53,39 +53,39 @@ function showSlides() {
             
             
             <div class="row articles" data-aos="slide-up" data-aos-once="true" width="1920" height="1080"  >
-                <div class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="/assets/img/eot.jpg"></a>
+                <div class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/eot.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="/assets/img/jw.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/jw.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="/assets/img/rock.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/rock.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="/assets/img/FF.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/FF.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="/assets/img/BAT.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/BAT.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                  <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="/assets/img/MON.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/MON.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                   <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="/assets/img/REV.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/REV.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="/assets/img/JL.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/JL.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="/assets/img/TUR.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/TUR.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
         </div>
@@ -123,14 +123,14 @@ function showSlides() {
                                 </div>
                             </footer>
                         </div>
-                        <script src="/assets/js/jquery.min.js"></script>
-                        <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-                        <script src="/assets/js/bs-init.js"></script>
+                        <script src="assets/js/jquery.min.js"></script>
+                        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+                        <script src="assets/js/bs-init.js"></script>
                         <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
                         <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
                         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-                        <script src="/assets/js/Simple-Slider.js"></script>
-                        <script src="/assets/js/Swipe-Slider-9.js"></script>
+                        <script src="assets/js/Simple-Slider.js"></script>
+                        <script src="assets/js/Swipe-Slider-9.js"></script>
 
                         
 </body>

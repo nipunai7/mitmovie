@@ -1,4 +1,4 @@
-<?php inlude('server.php');?>
+<?php include('server.php');?>
 
 
 
@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<?php 
+include ('../navbar.php')
+?>
 
     <div class="main">
 

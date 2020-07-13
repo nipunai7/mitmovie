@@ -2,15 +2,17 @@
 
 $name = "";
 $email = "";
+$password_1="";
+$password_2="";
 $errors = array();
 
-$db = mysqli_connect('139.162.10.226', 'mitmovie', 'mitmovie', 'user');
+$db = mysqli_connect('139.162.10.226', 'mitmovie', 'mitmovie');
 
 if(isset($_POST['sign up'])){
-    $name = mysql_real_escape_string($_POST['name']);
+    $name = mysql_real_escape_string($_POST['uname']);
     $email = mysql_real_escape_string($_POST['email']);
     $password_1 = mysql_real_escape_string($_POST['password']);
-    $password_2 = mysql_real_escape_string($_POST['re_password']);
+    $password_2 = mysql_real_escape_string($_POST['password-repeat']);
 
 if(empty($name)){
 	array_push($errors,"username is required");
@@ -23,7 +25,7 @@ if(empty($password_1)){
 }
 
 if(password_1 != password_2){
-	array_push($errors,"The two password do not match");
+	array_push($errors,"Passwords doesn't match!!!");
 }
 
 if (count($errors==0)){
