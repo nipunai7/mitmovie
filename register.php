@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
 
 ?>
 
-<body style="background-color: rgb(241,247,252);">
+<body style="background-color: black;">
 <?php include('navbar.php'); ?>
     <div class="register-photo" style="padding-top: 10%;">
         <div class="form-container">
