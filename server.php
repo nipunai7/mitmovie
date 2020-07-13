@@ -33,7 +33,7 @@ if(password_1 != password_2){
 
 if (count($errors==0)){
 	$sql= "INSERT INTO user(username, email, password) 
-	VALUES ('$name', '$email', '$password')";
+	VALUES ('$name', '$email', '$password_1')";
 
 	mysqli_query($sql);
 	
