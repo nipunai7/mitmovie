@@ -14,10 +14,10 @@ if(isset($_POST['submit'])){
         <div class="form-container">
             <div class="image-holder"></div>
             <form method="POST" action="register.php" name="reg">
-            <?php include('errors.php'); ?>
+            <?php #include('errors.php'); ?>
                 <h2 class="text-center"><strong>Create</strong> an account.</h2>
                 <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Username" id="name"></div>
-                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email" id="email"></div>
+                <div class="form-group"><input class="form-control" type="text" name="email" placeholder="Email" id="email"></div>
                 <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password" id="password"></div>
                 <div class="form-group"><input class="form-control" type="password" name="password-repeat" placeholder="Password (repeat)" id="password-repeat"></div>
                 <div class="form-group">
