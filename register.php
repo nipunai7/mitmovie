@@ -1,5 +1,12 @@
-<?php include('server.php');?>
-<?php include ('header.php'); ?>
+<?php 
+include('server.php');
+include('header.php'); 
+
+if(isset($_POST['submit'])){
+    echo 'User Added';
+}
+
+?>
 
 <body style="background-color: rgb(241,247,252);">
 <?php include('navbar.php'); ?>
