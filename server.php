@@ -14,10 +14,10 @@
 //   $mysqli = new mysqli('139.162.10.226', 'mitmovie', 'mitmovie', 'mitmovie');
 
 // if(isset($_POST['reg'])){
-//     $name = $mysqli->real_escape_string($_POST['name']);
-//     $email = $mysqli->real_escape_string($_POST['email']);
-//     $password_1 = $mysqli->real_escape_string($_POST['password']);
-//     $password_2 = $mysqli->real_escape_string($_POST['password-repeat']);
+//     $name = mysqli_real_escape_string($_POST['name']);
+//     $email = $mysqli_real_escape_string($_POST['email']);
+//     $password_1 = mysqli_real_escape_string($_POST['password']);
+//     $password_2 = mysqli_real_escape_string($_POST['password-repeat']);
 
 // if(empty($name)){
 // 	array_push($errors,"username is required");
