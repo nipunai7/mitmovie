@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
     <div class="register-photo" style="padding-top: 10%;">
         <div class="form-container">
             <div class="image-holder"></div>
-            <form method="POST" id="signup-form" class="signup-form" action="register.php">
+            <form method="POST" action="register.php">
             <?php include('errors.php'); ?>
                 <h2 class="text-center"><strong>Create</strong> an account.</h2>
                 <div class="form-group"><input class="form-control" type="text" name="uname" placeholder="Username" id="uname"></div>
