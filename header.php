@@ -28,6 +28,9 @@
 		<link rel="stylesheet" href="assets/bootstrap/css/sticky-dark-top-nav-with-dropdown.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/styles.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/Swipe-Slider-9.css">
+		<link rel="stylesheet" href="assets/bootstrap/css/Registration-Form-with-Photo.css">
+		<link rel="stylesheet" href="assets/bootstrap/css/styles.css">
+		<link rel="stylesheet" href="assets/bootstrap/css/Login-Form-Clean.css">
     
 	<link rel="icon" type="image/png" href="assets/images/icons/favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">

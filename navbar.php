@@ -9,7 +9,7 @@
 							<!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li> -->
 							<li class="nav-item" role="presentation"><a class="nav-link" href="login.php">Login</a></li>
 							<!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#">Music</a></li> -->
-							<li class="nav-item" role="presentation"><a class="nav-link" href="signup.php">Sign Up</a></li>
+							<li class="nav-item" role="presentation"><a class="nav-link" href="register.php">Sign Up</a></li>
 							<li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="icon ion-ios-search-strong"></i></a></li>
 						</ul>
 					</div>

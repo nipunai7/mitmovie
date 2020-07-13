@@ -1,0 +1,26 @@
+<?php include('server.php');?>
+<?php include ('header.php'); ?>
+
+<body style="background-color: rgb(241,247,252);">
+<?php include('navbar.php'); ?>
+    <div class="register-photo" style="padding-top: 10%;">
+        <div class="form-container">
+            <div class="image-holder"></div>
+            <form method="POST" id="signup-form" class="signup-form" action="register.php">
+            <?php include('errors.php'); ?>
+                <h2 class="text-center"><strong>Create</strong> an account.</h2>
+                <div class="form-group"><input class="form-control" type="text" name="uname" placeholder="Username" id="uname"></div>
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email" id="email"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password" id="password"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password-repeat" placeholder="Password (repeat)" id="password-repeat"></div>
+                <div class="form-group">
+                    <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox" name="agree-term" id="agree-term">I agree to the license terms.</label></div>
+                </div>
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit" id="submit" name="submit">Sign Up</button></div><a class="already" href="login.php">You already have an account? Login here.</a></form>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
