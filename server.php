@@ -6,6 +6,11 @@ $errors = array();
 
 $db = mysqli_connect('139.162.10.226', 'mitmovie', 'mitmovie');
 
+if ($db->connect_error) {
+	die("Connection failed: " . $db->connect_error);
+  }
+  echo "Connected successfully";
+
 if(isset($_POST['sign up'])){
     $name = mysql_real_escape_string($_POST['name']);
     $email = mysql_real_escape_string($_POST['email']);
