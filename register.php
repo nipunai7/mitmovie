@@ -5,9 +5,9 @@ include('header.php');
 if(isset($_POST['submit'])){
     echo 'User Added';
 }
-
+include('navbar.php');
 ?>
-<?php include('navbar.php'); ?>
+
 <body style="background-color: black;">
 
     <div class="register-photo" style="padding-top: 10%;" style="background-color: black;">
