@@ -1,6 +1,6 @@
 <?php include ('header.php'); ?>
 
-<body>
+<body style="background-color: black;">
 <?php include('navbar.php'); ?>
     <div class="login-clean">
         <form method="post">
