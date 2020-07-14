@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
 
 <body>
 <?php include('navbar.php'); ?>
-    <div class="register-photo" style="padding-top: 10%;padding-bottom: 245px;style='background-image: url('images/SW.jpg')';'">
+    <div class="register-photo" style="background-image: url('images/SW.jpg');padding-top: 10%;padding-bottom: 245px;">
         <div class="form-container" background-color="black">
             <div class="image-holder"></div>
             <form method="POST" action="register.php" name="reg">
