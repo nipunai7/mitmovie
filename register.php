@@ -8,10 +8,10 @@ if(isset($_POST['submit'])){
 include('navbar.php');
 ?>
 
-<body style="background-color: black;">
+<body>
 
     <div class="register-photo" style="padding-top: 10%;" style="background-color: black;">
-        <div class="form-container" >
+        <div class="form-container" background-color="black">
             <div class="image-holder"></div>
             <form method="POST" action="register.php" name="reg">
             <?php #include('errors.php'); ?>
