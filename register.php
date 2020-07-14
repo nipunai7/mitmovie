@@ -6,6 +6,7 @@ if(isset($_POST['submit'])){
     echo 'User Added';
 }
 
+?>
 
 <body>
 <?php include('navbar.php'); ?>
