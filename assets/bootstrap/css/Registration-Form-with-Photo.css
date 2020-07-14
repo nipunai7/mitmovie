@@ -6,7 +6,7 @@
 .register-photo .image-holder {
   display: table-cell;
   width: auto;
-  background: url(../../img/VEN.jpg);
+  background: url(../../img/BAT.jpg);
   background-size: cover;
 }
 
