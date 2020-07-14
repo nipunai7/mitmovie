@@ -11,7 +11,9 @@ if(isset($_POST['submit'])){
 <body>
 <?php include('navbar.php'); ?>
     <div class="register-photo" style="padding-top: 10%;" style="background-color: black;">
-        <div class="form-container" background-color="black">
+        <div class="form-container" background-color="black" style="
+    padding-top: 220px;
+">
             <div class="image-holder"></div>
             <form method="POST" action="register.php" name="reg">
             <?php #include('errors.php'); ?>
