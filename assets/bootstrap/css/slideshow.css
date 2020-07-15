@@ -41,8 +41,16 @@ slide:nth-child(2){
 
 slide:nth-child(3){
     left: 0%;
-    animation-delay: s;
+    animation-delay: 5s;
     background-image: url(../../img/VEN.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(4){
+    left: 0%;
+    animation-delay: 8s;
+    background-image: url(../../img/rock.jpg);
     background-size: cover;
     background-position: center;
 }
