@@ -10,17 +10,17 @@
                 <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/VEN.jpg&quot;);min-height: 920px;"></div>
             </div>
 
+            <!-- <div class="dot" style="display: none;"></div>
             <div class="dot" style="display: none;"></div>
-            <div class="dot" style="display: none;"></div>
-            <div class="dot" style="display: none;"></div>
+            <div class="dot" style="display: none;"></div> -->
 
-            <!-- <div class="swiper-pagination"></div>
+            <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div> -->
+            <div class="swiper-button-next"></div>
         </div>
     </div>
 
-<script>
+<!-- <script>
 var slideIndex = 0;
 showSlides();
 
@@ -40,7 +40,7 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
-</script>
+</script> -->
 
 
 
