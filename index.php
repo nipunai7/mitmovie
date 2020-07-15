@@ -1,5 +1,5 @@
 <?php include ('header.php'); ?>
-<link rel="stylesheet" href="assets/bootstrap/css/slideshow.css">
+<link rel="stylesheet" href="lideshow.css">
 <body>
     <?php include('navbar.php'); ?>
     <slider>
