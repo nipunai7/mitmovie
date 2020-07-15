@@ -14,7 +14,7 @@
 })(jQuery);
 
 var carousel = function() {
-  $('.swiper-slide').swiper-wrapper({
+  $('.test').swiper-container({
     autoplay: true,
     autoHeight: true,
     center: true,
@@ -37,7 +37,7 @@ var carousel = function() {
       }
     }
   });
-  $('.swiper-slide').swiper-wrapper({
+  $('.swiper-wrapper')swiper-container({
     autoplay: true,
     autoHeight: true,
     center: true,
