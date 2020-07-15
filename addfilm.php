@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Film adding</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
+<?php
+include('header.php');
+include('navbar.php');
+?>
 
 <body class="text-center" style="background-color: rgb(241,247,252);">
     <div class="text-center d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center register-photo" style="padding: 0px;margin-top: 11%;">
