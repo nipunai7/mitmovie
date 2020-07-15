@@ -361,7 +361,7 @@ input[type=checkbox]:not(old):checked + label > span:before {
 
 
 /* slider */
-html,body{
+/* html,body{
   width: 100%;
   height: 100%;
   padding: 0;
@@ -417,4 +417,4 @@ slide:nth-child(3){
   30% {left: -100%; width: 100%;}
   30.0001%{ left: -100%;width: 0%;}
   100%{left: 100%; width: 0%;}
-}
+} */
