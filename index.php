@@ -2,15 +2,15 @@
 <link rel="stylesheet" href="assets/bootstrap/css/slideshow.css">
 <meta http-equiv="X-UA-Compatible" content="ie-edge">
 <body>
-    <?php include('navbar.php'); ?>
-    <div>
+    <!-- <?php include('navbar.php'); ?> -->
+
     <slider>
             <slide><p>slide 1</p></slide>
             <slide><p>slide 2</p></slide>
             <slide><p>slide 3</p></slide>
             <slide><p>slide 4</p></slide>
         </slider>
-</div>
+
     <!-- <div class="simple-slider">
         <div class="swiper-container">
             <div class="swiper-wrapper"style="transition: all 0.25s ease 0s; width: 3540px; transform: translate3d(-1180px, 0px, 0px);" >
