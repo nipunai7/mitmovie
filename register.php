@@ -3,7 +3,7 @@ include('server.php');
 include('header.php'); 
 
 if(isset($_POST['submit'])){
-    echo 'User Added';
+    // echo 'User Added';
 }
 
 ?>
