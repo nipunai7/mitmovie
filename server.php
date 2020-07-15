@@ -66,7 +66,7 @@ $sql = "INSERT INTO user (name, email, pwd)
 VALUES ('$name', '$email', '$password_1')";
 
 if ($conn->query($sql) === TRUE) {
-  echo "New record created successfully";
+  // echo "New record created successfully";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
