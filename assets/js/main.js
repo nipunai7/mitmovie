@@ -37,7 +37,7 @@ var carousel = function() {
       }
     }
   });
-  $('.swiper-wrapper')swiper-container({
+  $('.swiper-wrapper').swiper-container({
     autoplay: true,
     autoHeight: true,
     center: true,
