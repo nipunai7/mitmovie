@@ -10,7 +10,7 @@
                 <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/VEN.jpg&quot;);min-height: 920px;"></div>
             </div>
 
-            <div class="dot active"></div>
+            <div class="dot"></div>
             <div class="dot"></div>
             <div class="dot"></div>
 
