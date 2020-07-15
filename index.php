@@ -2,14 +2,14 @@
 <link rel="stylesheet" href="assets/bootstrap/css/slideshow.css">
 <meta http-equiv="X-UA-Compatible" content="ie-edge">
 <body>
-    <!-- <?php include('navbar.php'); ?> -->
+    <?php include('navbar.php'); ?>
 
     <slider>
-            <slide><p>slide 1</p></slide>
-            <slide><p>slide 2</p></slide>
-            <slide><p>slide 3</p></slide>
-            <slide><p>slide 4</p></slide>
-        </slider>
+        <slide><p>slide 1</p></slide>
+        <slide><p>slide 2</p></slide>
+        <slide><p>slide 3</p></slide>
+        <slide><p>slide 4</p></slide>
+    </slider>
 
     <!-- <div class="simple-slider">
         <div class="swiper-container">
