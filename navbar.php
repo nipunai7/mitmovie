@@ -11,6 +11,7 @@
 							<!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#">Music</a></li> -->
 							<li class="nav-item" role="presentation"><a class="nav-link" href="register.php">Sign Up</a></li>
 							<li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="icon ion-ios-search-strong"></i></a></li>
+							<button style="background-color:#0a60c2;border-radius:6px;"><li class="nav-item" role="presentation"><a class="nav-link" href="addfilm.php">Add Movies</a></li></button>
 						</ul>
 					</div>
 				</div>
