@@ -1,4 +1,5 @@
 <?php include ('header.php'); ?>
+<link rel="stylesheet" href="assets/bootstrap/css/style.css">
 <body>
     <?php include('navbar.php'); ?>
     <slider>
