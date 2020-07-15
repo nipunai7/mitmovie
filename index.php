@@ -4,7 +4,7 @@
 <meta name="viewpoint" content="width=device-width , initial-scale= 1.0">
 <meta http-equiv="X-UA-Compatible" content="ie-edge">
 <title>pure css slider</title>
-<link rel="stylesheet" href="assets/bootstrap/css/styleslider.csss">
+<!-- <link rel="stylesheet" href="assets/bootstrap/css/styleslider.csss"> -->
 
 <body>
     <?php include('navbar.php'); ?>

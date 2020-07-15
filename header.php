@@ -43,7 +43,7 @@
 		<link rel="stylesheet" type="text/css" href="assets/vendor/daterangepicker/daterangepicker.css">
 		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/util.css">
 		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/main.css">
-		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/styleslider.css">
+		<!-- <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/styleslider.css"> -->
 		<!-- <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/owl.carousel.min.css"> -->
 
 </head>
