@@ -14,7 +14,7 @@
 })(jQuery);
 
 var carousel = function() {
-  $('.swiper-slide').owlCarousel({
+  $('.swiper-slide').swiper-slide({
     autoplay: true,
     autoHeight: true,
     center: true,
@@ -37,7 +37,7 @@ var carousel = function() {
       }
     }
   });
-  $('.swiper-slide').owlCarousel({
+  $('.swiper-slide').swiper-slide({
     autoplay: true,
     autoHeight: true,
     center: true,
