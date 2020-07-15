@@ -2,7 +2,7 @@
 
 <body style="background-color: black;">
 <?php include('navbar.php'); ?>
-    <div class="login-clean" style="background-image: url('images/SW.jpg');border-bottom-width: 10px;padding-bottom: 253px;" >
+    <div >
         <form method="post" style="border-top-width: 50px;margin-top: 150px;">
             <h2 class="sr-only">Login Form</h2>
             <div class="illustration"><i class="icon ion-ios-navigate"></i></div>
