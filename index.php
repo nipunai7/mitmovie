@@ -16,11 +16,11 @@
     </div>
 
     <!-- Script -->
-    <script>
+    <!-- <script>
 var slideIndex = 0;
-showSlides();
+showSlides(); -->
 
-// function showSlides() {
+<!-- // function showSlides() {
 //   var i;
 //   var slides = document.getElementsByClassName("swiper-slide");
 //   var dots = document.getElementsByClassName("dot");
@@ -36,7 +36,7 @@ showSlides();
 //   dots[slideIndex-1].className += " active";
 //   setTimeout(showSlides, 2000); // Change image every 2 seconds
 // }
-// </script>
+// </script> -->
 
 
 
