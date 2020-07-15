@@ -405,7 +405,7 @@ slide:nth-child(2){
 slide:nth-child(3){
   left: 0%;
   animation-delay: 5s;
-  background-image: url(VEN.jpg);
+  background-image : url(../../img/VEN.jpg);
   background-size: cover;
   background-position: center;
 }
