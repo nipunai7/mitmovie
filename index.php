@@ -10,9 +10,9 @@
                 <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/VEN.jpg&quot;);min-height: 920px;"></div>
             </div>
 
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
+            <div class="dot" style="display: none;"></div>
+            <div class="dot" style="display: none;"></div>
+            <div class="dot" style="display: none;"></div>
 
             <!-- <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
