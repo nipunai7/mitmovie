@@ -26,7 +26,7 @@ showSlides();
 
 function showSlides() {
   var i;
-  var slides = document.getElementsByClassName("swiper-slide");
+  var slides = document.getElementsByClassName("swiper-wrapper");
   var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
