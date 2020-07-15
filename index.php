@@ -1,18 +1,23 @@
 <?php include ('header.php'); ?>
 <body>
     <?php include('navbar.php'); ?>
-    <div class="simple-slider">
+    <slider>
+            <slide><p>slide 1</p></slide>
+            <slide><p>slide 2</p></slide>
+            <slide><p>slide 3</p></slide>
+        </slider>
+    <!-- <div class="simple-slider">
         <div class="swiper-container">
             <div class="swiper-wrapper"style="transition: all 0.25s ease 0s; width: 3540px; transform: translate3d(-1180px, 0px, 0px);" >
                 <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/pic3.jpg&quot;);min-height: 920px;"></div>
-                <!-- <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/SW.jpg&quot;);min-height: 920px;"></div> -->
+                <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/SW.jpg&quot;);min-height: 920px;"></div>
                 <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/VEN.jpg&quot;);min-height: 920px;"></div>
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
-    </div>
+    </div> -->
 
 <!-- <script>
 var slideIndex = 0;
