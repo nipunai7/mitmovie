@@ -27,6 +27,7 @@
 		<link rel="stylesheet" href="assets/bootstrap/css/Simple-Slider.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/sticky-dark-top-nav-with-dropdown.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/styles.css">
+		<link rel="stylesheet" href="assets/bootstrap/css/style.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/Swipe-Slider-9.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/Registration-Form-with-Photo.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/styles.css">
