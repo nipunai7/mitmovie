@@ -27,7 +27,7 @@ slider > * {
 slide:nth-child(1){
     left: 0%;
     animation-delay: -1s;
-    background-image: url(../../img/pic1.JPG);
+    background-image: url(../../img/eot.jpg);
     background-size: cover;
     background-position: center;
 }
