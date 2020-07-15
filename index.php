@@ -4,7 +4,7 @@
 
 <meta name="viewpoint" content="width=device-width , initial-scale= 1.0">
 <meta http-equiv="X-UA-Compatible" content="ie-edge">
-
+<link rel="stylesheet" href="assets/bootstrap/css/style.css">
 <body  >
     <?php include('navbar.php'); ?>
 
