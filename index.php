@@ -6,6 +6,7 @@
             <slide><p>slide 1</p></slide>
             <slide><p>slide 2</p></slide>
             <slide><p>slide 3</p></slide>
+            <slide><p>slide 4</p></slide>
         </slider>
     <!-- <div class="simple-slider">
         <div class="swiper-container">
