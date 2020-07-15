@@ -3,7 +3,7 @@
 <body style="background-color: black;">
 <?php include('navbar.php'); ?>
     <div class="login-clean" >
-        <form method="post" style="border-top-width: 50px;margin-top: 150px;">
+        <form method="post" style="border-top-width: 50px;margin-top: 80px;">
             <h2 class="sr-only">Login Form</h2>
             <div class="illustration"><i class="icon ion-ios-navigate"></i></div>
             <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
