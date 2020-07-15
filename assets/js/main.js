@@ -14,7 +14,7 @@
 })(jQuery);
 
 var carousel = function() {
-  $('.carousel-testimony').owlCarousel({
+  $('.swiper-slide').owlCarousel({
     autoplay: true,
     autoHeight: true,
     center: true,
@@ -24,7 +24,7 @@ var carousel = function() {
     stagePadding: 0,
     nav: false,
     dots: true,
-    navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+    // navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
     responsive:{
       0:{
         items: 1
@@ -37,7 +37,7 @@ var carousel = function() {
       }
     }
   });
-  $('.carousel-causes').owlCarousel({
+  $('.swiper-slide').owlCarousel({
     autoplay: true,
     autoHeight: true,
     center: true,
@@ -47,7 +47,7 @@ var carousel = function() {
     stagePadding: 0,
     nav: false,
     dots: true,
-    navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+    // navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
     responsive:{
       0:{
         items: 1
