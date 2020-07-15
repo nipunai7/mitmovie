@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark" data-bs-hover-animate="flash">
+<nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
 				<div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
 					<div class="collapse navbar-collapse" id="navcol-1">
 						<ul class="nav navbar-nav flex-grow-1 justify-content-between">
