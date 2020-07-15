@@ -1,31 +1,40 @@
 <?php include ('header.php'); ?>
-
-
-
-<body  >
+<body>
     <?php include('navbar.php'); ?>
-    <!-- <slider>
-            <slide><p>slide 1</p></slide>
-            <slide><p>slide 2</p></slide>
-            <slide><p>slide 3</p></slide>
-        </slider> -->
-
     <div class="simple-slider">
         <div class="swiper-container">
-            <div class="swiper-wrapper" >
-
+            <div class="swiper-wrapper"style="transition: all 0.25s ease 0s; width: 3540px; transform: translate3d(-1180px, 0px, 0px);" >
                 <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/pic3.jpg&quot;);min-height: 920px;"></div>
-                <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/SW.jpg&quot;);min-height: 920px;"></div>
+                <!-- <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/SW.jpg&quot;);min-height: 920px;"></div> -->
                 <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/VEN.jpg&quot;);min-height: 920px;"></div>
             </div>
-
             <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
     </div>
 
+<!-- <script>
+var slideIndex = 0;
+showSlides();
 
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("swiper-slide");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script> -->
 
 
 
@@ -120,7 +129,7 @@
                         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
                         <script src="assets/js/Simple-Slider.js"></script>
                         <script src="assets/js/Swipe-Slider-9.js"></script>
-                        <!-- <script src="assets/js/owl.carousel.min.js"></script> -->
+                        <script src="assets/js/owl.carousel.min.js"></script>
 
                         
 </body>
