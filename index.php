@@ -1,5 +1,6 @@
 <?php include ('header.php'); ?>
 <link rel="stylesheet" href="assets/bootstrap/css/slideshow.css">
+<meta http-equiv="X-UA-Compatible" content="ie-edge">
 <body>
     <?php include('navbar.php'); ?>
     <div>
