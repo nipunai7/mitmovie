@@ -24,9 +24,9 @@
 
 				<!-- Slide Text Layer -->
 				<div class="fw_al_001_slide">
-					<h3 data-animation="animated fadeInUp">HELLO WORLD</h3>
-					<h1 data-animation="animated fadeInUp">THIS IS A  SLIDER</h1>
-					<p data-animation="animated fadeInUp">lorem 2018, ipsum out of sapien, consequa</p>
+					<h3 data-animation="animated fadeInUp">WELCOME</h3>
+					<h1 data-animation="animated fadeInUp">MOVIE HUB</h1>
+					<p data-animation="animated fadeInUp">Find a Movie to Watch</p>
 					<a href="movie-single.php" data-animation="animated fadeInUp">iewx donecti</a>
 				</div>
 			</div>
