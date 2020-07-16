@@ -703,7 +703,7 @@
 }
 
 .ps_indicators_y .carousel-indicators {
-  top: 0;
+  top: 50%;
   left: 3%;
   width: 5%;
   bottom: 0;
