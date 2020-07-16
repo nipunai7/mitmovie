@@ -40,7 +40,7 @@
 
 				<!-- Slide Text Layer -->
 				<div class="fw_al_001_slide">
-					<h3 data-animation="animated fadeInUp">wrisus 2018</h3>
+					<h3 data-animation="animated fadeInUp">Latest Movies</h3>
 					<h1 data-animation="animated fadeInUp">dolor loborti eros</h1>
 					<p data-animation="animated fadeInUp">lorem 2018, ipsum out of sapien, consequa</p>
 					<a href="https://fb.com/nipunai7" data-animation="animated fadeInUp">quamr rutrumt</a>
@@ -56,7 +56,7 @@
 
 				<!-- Slide Text Layer -->
 				<div class="fw_al_001_slide">
-					<h3 data-animation="animated fadeInUp">wx erat</h3>
+					<h3 data-animation="animated fadeInUp">Movie Trailers</h3>
 					<h1 data-animation="animated fadeInUp">Aliquamaeuhw</h1>
 					<p data-animation="animated fadeInUp">lorem 2018, ipsum out of sapien, consequa</p>
 					<a href="#" data-animation="animated fadeInUp">felis zw</a>
