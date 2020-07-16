@@ -5,9 +5,9 @@ include('header.php');
 <body style="background-color: rgb(0,0,0);color: rgb(255,255,255);font-family: Aldrich, sans-serif;background-image:none;">
    <?php include('navbar.php'); ?>
     <div>
-        <div class="container" style="margin-top: 40px;">
+        <div class="container" style="margin-top: 40px;margin-bottom: 140px;">
             <div class="row" style="height: 380px;">
-                <div class="col-sm-6 col-md-3"><img class="border rounded border-white" style="width: 100%;height: 100%;"></div>
+                <div class="col-sm-6 col-md-3 text-center"><img class="border rounded border-white" style="width: auto;" src="assets/img/podi-siya-HSL.png"></div>
                 <div class="col-sm-6 col-md-3"></div>
                 <div class="col-sm-6 col-md-3">
                     <div class="row text-center">
