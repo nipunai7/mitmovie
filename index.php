@@ -4,12 +4,69 @@
 <body>
     <?php include('navbar.php'); ?>
 
-    <slider>
-        <slide><p>slide 1</p></slide>
-        <slide><p>slide 2</p></slide>
-        <slide><p>slide 3</p></slide>
-        <slide><p>slide 4</p></slide>
-    </slider>
+    <div id="fw_al_001" class="carousel slide ps_slide_y ps_indicators_y swipe_y ps_easeOutQuint" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2500">
+
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#fw_al_001" data-slide-to="0" class="active"></li>
+			<li data-target="#fw_al_001" data-slide-to="1"></li>
+			<li data-target="#fw_al_001" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Wrapper For Slides -->
+		<div class="carousel-inner" role="listbox">
+
+			<!-- First Slide -->
+			<div class="carousel-item active">
+
+				<!-- Slide Background -->
+				<img src="assets/img/car0.jpg" alt="fw_al_001_01">
+
+				<!-- Slide Text Layer -->
+				<div class="fw_al_001_slide">
+					<h3 data-animation="animated fadeInUp">HELLO WORLD</h3>
+					<h1 data-animation="animated fadeInUp">THIS IS A  SLIDER</h1>
+					<p data-animation="animated fadeInUp">lorem 2018, ipsum out of sapien, consequa</p>
+					<a href="#" data-animation="animated fadeInUp">iewx donecti</a>
+				</div>
+			</div>
+			<!-- End of Slide -->
+
+			<!-- Second Slide -->
+			<div class="carousel-item">
+
+				<!-- Slide Background -->
+				<img src="assets/img/car1.jpg" alt="fw_al_001_02">
+
+				<!-- Slide Text Layer -->
+				<div class="fw_al_001_slide">
+					<h3 data-animation="animated fadeInUp">wrisus 2018</h3>
+					<h1 data-animation="animated fadeInUp">dolor loborti eros</h1>
+					<p data-animation="animated fadeInUp">lorem 2018, ipsum out of sapien, consequa</p>
+					<a href="#" data-animation="animated fadeInUp">quamr rutrumt</a>
+				</div>
+			</div>
+			<!-- End of Slide -->
+
+			<!-- Third Slide -->
+			<div class="carousel-item">
+
+				<!-- Slide Background -->
+				<img src="assets/img/car2.jpg" alt="fw_al_001_03">
+
+				<!-- Slide Text Layer -->
+				<div class="fw_al_001_slide">
+					<h3 data-animation="animated fadeInUp">wx erat</h3>
+					<h1 data-animation="animated fadeInUp">Aliquamaeuhw</h1>
+					<p data-animation="animated fadeInUp">lorem 2018, ipsum out of sapien, consequa</p>
+					<a href="#" data-animation="animated fadeInUp">felis zw</a>
+				</div>
+			</div>
+			<!-- End of Slide -->
+
+		</div><!-- End of Wrapper For Slides -->
+
+	</div> 
 
     <!-- <div class="simple-slider">
         <div class="swiper-container">
@@ -111,7 +168,7 @@
                         <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
                         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
                         <script src="assets/js/Simple-Slider.js"></script>
-                        <script src="assets/js/Swipe-Slider-9.js"></script>
+                        <script src="assets/js/Swipe-Slider-7.js"></script>
                         <script src="assets/js/owl.carousel.min.js"></script>
 
                         
