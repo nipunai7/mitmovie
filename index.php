@@ -27,7 +27,7 @@
 					<h3 data-animation="animated fadeInUp">WELCOME</h3>
 					<h1 data-animation="animated fadeInUp">MOVIE HUB</h1>
 					<p data-animation="animated fadeInUp">Find a Movie to Watch</p>
-					<a href="movie-single.php" data-animation="animated fadeInUp">iewx donecti</a>
+					<a href="movie-single.php" data-animation="animated fadeInUp">Sign Up</a>
 				</div>
 			</div>
 			<!-- End of Slide -->
