@@ -7,9 +7,9 @@ include('header.php');
     <div>
         <div class="container" style="margin-top: 40px;">
             <div class="row" style="height: 380px;">
-                <div class="col-md-3"><img class="border rounded border-white" style="width: 100%;height: 100%;"></div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3">
+                <div class="col-sm-6 col-md-3"><img class="border rounded border-white" style="width: 100%;height: 100%;"></div>
+                <div class="col-sm-6 col-md-3"></div>
+                <div class="col-sm-6 col-md-3">
                     <div class="row text-center">
                         <div class="col text-center"><label class="col-form-label text-center" style="font-size: 52px;color: rgb(255,255,255);">Title</label></div>
                     </div>
@@ -38,13 +38,13 @@ include('header.php');
     <div>
         <div class="container">
             <div class="row">
-                <div class="col-8">
+                <div class="col-sm-6 col-md-8">
                     <div class="row">
                         <div class="col-md-12"><label class="col-form-label" style="font-size: 27px;">Description</label></div>
                         <div class="col"><textarea style="width: 100%;height: 350px;background-color: rgb(0,0,0);color: rgb(255,255,255);"></textarea></div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-6 col-md-4">
                     <div class="row" style="height: 54.3277px;"><label style="font-size: 27px;">Cast</label></div>
                     <div class="row" style="height: 350px;overflow-y: scroll;">
                         <div class="col">
