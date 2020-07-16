@@ -20,7 +20,7 @@
 			<div class="carousel-item active">
 
 				<!-- Slide Background -->
-				<img src="assets/img/car0.jpg" alt="fw_al_001_01">
+				<img src="assets/img/eot.jpg" alt="fw_al_001_01">
 
 				<!-- Slide Text Layer -->
 				<div class="fw_al_001_slide">
@@ -36,7 +36,7 @@
 			<div class="carousel-item">
 
 				<!-- Slide Background -->
-				<img src="assets/img/car1.jpg" alt="fw_al_001_02">
+				<img src="assets/img/SW.jpg" alt="fw_al_001_02">
 
 				<!-- Slide Text Layer -->
 				<div class="fw_al_001_slide">
@@ -52,7 +52,7 @@
 			<div class="carousel-item">
 
 				<!-- Slide Background -->
-				<img src="assets/img/car2.jpg" alt="fw_al_001_03">
+				<img src="assets/img/rock.jpg" alt="fw_al_001_03">
 
 				<!-- Slide Text Layer -->
 				<div class="fw_al_001_slide">
