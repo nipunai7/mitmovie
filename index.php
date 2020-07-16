@@ -27,7 +27,7 @@
 					<h3 data-animation="animated fadeInUp">HELLO WORLD</h3>
 					<h1 data-animation="animated fadeInUp">THIS IS A  SLIDER</h1>
 					<p data-animation="animated fadeInUp">lorem 2018, ipsum out of sapien, consequa</p>
-					<a href="#" data-animation="animated fadeInUp">iewx donecti</a>
+					<a href="movie-single.php" data-animation="animated fadeInUp">iewx donecti</a>
 				</div>
 			</div>
 			<!-- End of Slide -->
@@ -43,7 +43,7 @@
 					<h3 data-animation="animated fadeInUp">wrisus 2018</h3>
 					<h1 data-animation="animated fadeInUp">dolor loborti eros</h1>
 					<p data-animation="animated fadeInUp">lorem 2018, ipsum out of sapien, consequa</p>
-					<a href="#" data-animation="animated fadeInUp">quamr rutrumt</a>
+					<a href="https://fb.com/nipunai7" data-animation="animated fadeInUp">quamr rutrumt</a>
 				</div>
 			</div>
 			<!-- End of Slide -->
