@@ -14,10 +14,10 @@ include('header.php');
                         <div class="col text-center"><label class="col-form-label text-center" style="font-size: 52px;color: rgb(255,255,255);">Title</label></div>
                     </div>
                     <div class="row text-center">
-                        <div class="col"><label class="col-form-label text-center" style="font-size: 27px;">Released Year</label></div>
+                        <div class="col"><label class="col-form-label text-center" style="font-size: 28px;">Released Year</label></div>
                     </div>
                     <div class="row text-center">
-                        <div class="col"><label class="col-form-label text-center" style="font-size: 27px;">Genre</label></div>
+                        <div class="col"><label class="col-form-label text-center" style="font-size: 28px;">Genre</label></div>
                     </div>
                 </div>
                 <div class="col-md-3"></div>
