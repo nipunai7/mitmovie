@@ -2,7 +2,7 @@
 include('header.php');
 ?>
 
-<body style="background-color: rgb(0,0,0);color: rgb(255,255,255);font-family: Aldrich, sans-serif;">
+<body style="background-color: rgb(0,0,0);color: rgb(255,255,255);font-family: Aldrich, sans-serif;background-image:none;">
    <?php include('navbar.php'); ?>
     <div>
         <div class="container" style="margin-top: 40px;">
