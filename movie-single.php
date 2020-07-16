@@ -45,7 +45,7 @@ include('header.php');
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4">
-                    <div class="row" style="height: 54.3277px;"><label style="font-size: 27px;">Cast</label></div>
+                    <div class="row" style="height: 54.3277px;"><div class="col-md-12"><label style="font-size: 27px;">Cast</label></div></div>
                     <div class="row" style="height: 350px;overflow-y: scroll;">
                         <div class="col">
                             <div class="row" style="height: 80px;">
