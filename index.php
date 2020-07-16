@@ -169,7 +169,7 @@
                         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
                         <script src="assets/js/Simple-Slider.js"></script>
                         <script src="assets/js/Swipe-Slider-7.js"></script>
-                        <script src="assets/js/owl.carousel.min.js"></script>
+                        
 
                         
 </body>
