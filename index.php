@@ -56,10 +56,10 @@
 
 				<!-- Slide Text Layer -->
 				<div class="fw_al_001_slide">
-					<h3 data-animation="animated fadeInUp">Movie Trailers</h3>
-					<h1 data-animation="animated fadeInUp">Aliquamaeuhw</h1>
-					<p data-animation="animated fadeInUp">lorem 2018, ipsum out of sapien, consequa</p>
-					<a href="#" data-animation="animated fadeInUp">felis zw</a>
+					<h3 data-animation="animated fadeInUp">Watch</h3>
+					<h1 data-animation="animated fadeInUp">Movie Trailers</h1>
+					<p data-animation="animated fadeInUp">Review and Rate</p>
+					<a href="#" data-animation="animated fadeInUp">Search</a>
 				</div>
 			</div>
 			<!-- End of Slide -->
