@@ -25,7 +25,7 @@
 				<!-- Slide Text Layer -->
 				<div class="fw_al_001_slide">
 					<h3 data-animation="animated fadeInUp">WELCOME</h3>
-					<h1 data-animation="animated fadeInUp">MOVIE HUB</h1>
+					<h1 data-animation="animated fadeInUp">MOVIE STUDIO</h1>
 					<p data-animation="animated fadeInUp">Find a Movie to Watch</p>
 					<a href="icon ion-ios-search-strong" data-animation="animated fadeInUp">Search</a>
 				</div>
