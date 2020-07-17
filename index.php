@@ -27,7 +27,7 @@
 					<h3 data-animation="animated fadeInUp">WELCOME</h3>
 					<h1 data-animation="animated fadeInUp">MOVIE HUB</h1>
 					<p data-animation="animated fadeInUp">Find a Movie to Watch</p>
-					<a href="signup.php" data-animation="animated fadeInUp">Sign Up</a>
+					<a href="icon ion-ios-search-strong" data-animation="animated fadeInUp">Search</a>
 				</div>
 			</div>
 			<!-- End of Slide -->
@@ -42,8 +42,8 @@
 				<div class="fw_al_001_slide">
 					<h3 data-animation="animated fadeInUp">Check Out</h3>
 					<h1 data-animation="animated fadeInUp">What's Latest Movies</h1>
-					<p data-animation="animated fadeInUp">if you already have an account</p>
-					<a href="login.php" data-animation="animated fadeInUp">Log In</a>
+					<p data-animation="animated fadeInUp">create an account</p>
+					<a href="signup.php" data-animation="animated fadeInUp">Sign Up</a>
 				</div>
 			</div>
 			<!-- End of Slide -->
@@ -59,7 +59,7 @@
 					<h3 data-animation="animated fadeInUp">Watch</h3>
 					<h1 data-animation="animated fadeInUp">Movie Trailers</h1>
 					<p data-animation="animated fadeInUp">Review and Rate</p>
-					<a href="#" data-animation="animated fadeInUp">Search</a>
+					<a href="login.php" data-animation="animated fadeInUp">Log In</a>
 				</div>
 			</div>
 			<!-- End of Slide -->
