@@ -27,7 +27,7 @@
 					<h3 data-animation="animated fadeInUp">WELCOME</h3>
 					<h1 data-animation="animated fadeInUp">MOVIE HUB</h1>
 					<p data-animation="animated fadeInUp">Find a Movie to Watch</p>
-					<a href="movie-single.php" data-animation="animated fadeInUp">Sign Up</a>
+					<a href="signup.php" data-animation="animated fadeInUp">Sign Up</a>
 				</div>
 			</div>
 			<!-- End of Slide -->
@@ -40,10 +40,10 @@
 
 				<!-- Slide Text Layer -->
 				<div class="fw_al_001_slide">
-					<h3 data-animation="animated fadeInUp">Latest Movies</h3>
-					<h1 data-animation="animated fadeInUp">dolor loborti eros</h1>
-					<p data-animation="animated fadeInUp">lorem 2018, ipsum out of sapien, consequa</p>
-					<a href="https://fb.com/nipunai7" data-animation="animated fadeInUp">quamr rutrumt</a>
+					<h3 data-animation="animated fadeInUp">Check Out</h3>
+					<h1 data-animation="animated fadeInUp">What's Latest Movies</h1>
+					<p data-animation="animated fadeInUp">if you already have an account</p>
+					<a href="login.php" data-animation="animated fadeInUp">Log In</a>
 				</div>
 			</div>
 			<!-- End of Slide -->
