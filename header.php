@@ -14,8 +14,6 @@
 		<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/fonts/ionicons.min.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/Article-List.css">
-		<link rel="stylesheet" href="assets/bootstrap/css/Carousel_Image_Slider-1.css">
-		<link rel="stylesheet" href="assets/bootstrap/css/Carousel_Image_Slider.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/Footer-Dark.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/Header---Apple.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/Header-Dark.css">
@@ -29,14 +27,12 @@
 		<link rel="stylesheet" href="assets/bootstrap/css/sticky-dark-top-nav-with-dropdown.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/styles.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/style.css">
-		<link rel="stylesheet" href="assets/bootstrap/css/Swipe-Slider-9.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/Registration-Form-with-Photo.css">
-		<link rel="stylesheet" href="assets/bootstrap/css/styles.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/Login-Form-Clean.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/Swipe-Slider-7.css">
     
 		<link rel="icon" type="image/png" href="assets/images/icons/favicon.ico"/>
-		<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+		
 		<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">

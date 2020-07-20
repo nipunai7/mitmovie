@@ -364,6 +364,13 @@ input[type=checkbox]:not(old):checked + label > span:before {
     margin-right: auto;
     margin-left: auto;
 }
+
+.container1{
+  width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto
+}
+  
+  @media (min-width:576px){..container1{max-width:540px}}@media (min-width:768px){..container1{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){..container1{max-width:1140px}}..container1-fluid,..container1-lg,..container1-md,..container1-sm,..container1-xl{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){..container1,..container1-sm{max-width:540px}}@media (min-width:768px){.container,..container1-md,..container1-sm{max-width:720px}}@media (min-width:992px){..container1,..container1-lg,..container1-md,..container1-sm{max-width:960px}}@media (min-width:1200px){..container1,..container1-lg,..container1-md,..container1-sm,..container1-xl{max-width:1140px}}.
+
 /*# sourceMappingURL=style.css.map */
 
 

@@ -87,7 +87,7 @@
 
 
     <div class="article-list"  style="background-color: black;">
-        <div class="container"  >
+        <div class="container1"  >
             <div class="intro">
                 <h2 class="text-center" data-aos="zoom-in-down" data-aos-once="true">Latest Movies</h2>
                 <p class="text-center" data-aos="zoom-in-down" data-aos-once="true">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
