@@ -96,39 +96,39 @@
             
             
             <div class="row articles" data-aos="slide-up" data-aos-once="true" width="1920" height="1080"  >
-                <div class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/eot.jpg"></a>
+                <div class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/eot.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="movie-single.php"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/jw.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/jw.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/rock.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/rock.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/FF.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/FF.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/BAT.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/BAT.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                  <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/MON.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/MON.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                   <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/REV.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/REV.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/JL.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/JL.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-3 item"><a href="#"><img class="img-fluid" src="assets/img/TUR.jpg"></a>
+                    class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/TUR.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
         </div>

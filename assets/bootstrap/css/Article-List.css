@@ -42,6 +42,7 @@
   padding-top: 50px;
   min-height: 425px;
   text-align: center;
+  overflow: hidden;
 }
 
 .article-list .item .name {

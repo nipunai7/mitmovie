@@ -357,6 +357,13 @@ input[type=checkbox]:not(old):checked + label > span:before {
   .signup-content {
     padding: 50px 25px; } }
 
+
+.mnk-image{
+    max-width: 220%;
+    height: 356px;
+    margin-right: auto;
+    margin-left: auto;
+}
 /*# sourceMappingURL=style.css.map */
 
 
