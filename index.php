@@ -96,41 +96,53 @@
             
             
             <div class="row articles" data-aos="slide-up" data-aos-once="true" width="1920" height="1080"  >
-                <div class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/eot.jpg"></a>
+                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/eot.jpg"></a>
                     <h3 class="name">Article Title</h3>
                   </div>
 
-                <div class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/jw.jpg"></a>
+                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/jw.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     </div>
 
-                <div class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/rock.jpg"></a>
+                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/rock.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     </div>
                     
-                <div class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/FF.jpg"></a>
+                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/FF.jpg"></a>
                     <h3 class="name">Article Title</h3>
                   </div>
 
-                <div class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/BAT.jpg"></a>
+                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/BAT.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     </div>
 
-                 <div class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/MON.jpg"></a>
+                 <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/MON.jpg"></a>
                     <h3 class="name">Article Title</h3>
                    </div>
 
-                  <div class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/REV.jpg"></a>
+                  <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/REV.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     </div>
 
-                <div class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/JL.jpg"></a>
+                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/JL.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     </div>
 
-                <div class="col-sm-6 col-md-3 item"><a href="#"><img class="mnk-image" src="assets/img/TUR.jpg"></a>
+                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/TUR.jpg"></a>
                     <h3 class="name">Article Title</h3>
                     </div>
+
+                    <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/FF.jpg"></a>
+                    <h3 class="name">Article Title</h3>
+                  </div>
+
+                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/BAT.jpg"></a>
+                    <h3 class="name">Article Title</h3>
+                    </div>
+
+                 <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/MON.jpg"></a>
+                    <h3 class="name">Article Title</h3>
+                   </div>    
         </div>
     </div>
 </div>

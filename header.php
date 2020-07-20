@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/Lightbox-Gallery.css">
-		<link rel="stylesheet" href="assets/bootstrap/css/News-Cards.css">
+		<!-- <link rel="stylesheet" href="assets/bootstrap/css/News-Cards.css"> -->
 		<link rel="stylesheet" href="assets/bootstrap/css/Simple-Slider.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/sticky-dark-top-nav-with-dropdown.css">
 		<link rel="stylesheet" href="assets/bootstrap/css/styles.css">
