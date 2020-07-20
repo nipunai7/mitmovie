@@ -50,6 +50,7 @@
   font-size: 16px;
   margin-top: 20px;
   color: inherit;
+  text-align: left;
 }
 
 .article-list .item .description {
