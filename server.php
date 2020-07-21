@@ -1,7 +1,5 @@
 <?php
 
-// include('connection.php');
-
 $name = $conn->real_escape_string($_POST['name']);
 $email = $conn->real_escape_string($_POST['email']);
 $password_1 = $conn->real_escape_string($_POST['password']);
