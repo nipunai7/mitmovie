@@ -1,6 +1,5 @@
 <?php
 include('header.php');
-include('connection.php');
 include('addmoviedb.php');
 
 ?>

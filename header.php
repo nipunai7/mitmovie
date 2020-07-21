@@ -46,3 +46,9 @@
 		<!-- <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/owl.carousel.min.css"> -->
 
 </head>
+
+<?php
+
+include('connection.php');
+
+?>
