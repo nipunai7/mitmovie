@@ -1,6 +1,6 @@
 <?php 
-include('server.php');
 include('header.php'); 
+include('server.php');
 
 if(isset($_POST['submit'])){
     echo 'User Added';
