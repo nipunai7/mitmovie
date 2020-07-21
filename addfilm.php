@@ -39,7 +39,7 @@ if (isset($_FILES['img'])){
         //     $out .= "File Uploaded<br>";
         // }
 
-        $sql = "INSERT INTO Movies (title,year,genre,description) VALUES ('$ttl','$year','$genre','$desc')";
+        $sql = "INSERT INTO movies (title,year,genre,description) VALUES ('$ttl','$year','$genre','$desc')";
 
         $result = mysqli_query($conn,$sql) or die ("Failed: $sql");
     }
@@ -62,10 +62,10 @@ if (isset($_FILES['img'])){
             <div class="col-sm-6 col-md-6" style="background-color: #ffffff;padding: 15px;padding-right: 0px;padding-left: 15px;">
                 <div style="padding: 0px;max-width: 100%;padding-top: 0px;padding-right: 15px;padding-bottom: 0px;padding-left: 15px;">
                     <h2 class="text-center"><strong>Add</strong> A Movie.</h2>
-                    <div class="form-group"><input class="form-control" type="text" name="title" placeholder="Tile"></div>
-                    <div class="form-group"><input class="form-control" type="text" name="genre" placeholder="Genre"></div>
-                    <div class="form-group"><input class="form-control" type="text" name="year" placeholder="Year"></div>
-                    <div class="form-group"><textarea class="form-control" placeholder="Description" name="desc" style="min-height: 170px;"></textarea></div>
+                    <div class="form-group"><input class="form-control" type="text" name="title" placeholder="Tile" id="title"></div>
+                    <div class="form-group"><input class="form-control" type="text" name="genre" placeholder="Genre" id="genre"></div>
+                    <div class="form-group"><input class="form-control" type="text" name="year" placeholder="Year" id="year"></div>
+                    <div class="form-group"><textarea class="form-control" placeholder="Description" id="desc" name="desc" style="min-height: 170px;"></textarea></div>
                     <div class="form-group"><button class="btn btn-primary btn-block border rounded" type="submit">Submit</button></div>
                 </form>
 </div>
