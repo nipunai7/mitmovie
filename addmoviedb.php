@@ -38,7 +38,7 @@ if (isset($_FILES['img'])){
             $out .= "File Uploaded<br>";
         }
 
-        $sql = "INSERT INTO movies (title,year,genre,description) VALUES ('$ttl','$year','$genre','$desc')";
+        $sql = "INSERT INTO movies (title,year,genre,description,img) VALUES ('$ttl','$year','$genre','$desc','$newfilename')";
 
         if ($conn->query($sql) === TRUE) {
           // echo "New record created successfully";
