@@ -39,7 +39,7 @@ if (isset($_FILES['img'])){
             $out .= "File Uploaded<br>";
         }
 
-        $sql = "INSERT INTO movieinfo (title,year,genre,img,description) VALUES ('$ttl','$year','$genre','$newfilename','$desc')";
+        $sql = "INSERT INTO Movies (title,year,genre,img,description) VALUES ('$ttl','$year','$genre','$newfilename','$desc')";
 
         $result = mysqli_query($conn,$sql) or die("Failed: $sql");
     }
