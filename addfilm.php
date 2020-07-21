@@ -33,15 +33,15 @@ if (isset($_FILES['img'])){
         $nameclr = str_replace(' ', '_', $name);
         $newfilename = time().$nameclr;
 
-        if(!move_uploaded_file($_FILES['img']["tmp_name"], 'uploads/'.$newfilename)){
-            $out .= "Failed to upload<br>";
-        }else{
-            $out .= "File Uploaded<br>";
-        }
+        // if(!move_uploaded_file($_FILES['img']["tmp_name"], 'uploads/'.$newfilename)){
+        //     $out .= "Failed to upload<br>";
+        // }else{
+        //     $out .= "File Uploaded<br>";
+        // }
 
-        $sql = "INSERT INTO Movies (title,year,genre,img,description) VALUES ('$ttl','$year','$genre','$newfilename','$desc')";
+        $sql = "INSERT INTO Movies (title,year,genre,description) VALUES ('$ttl','$year','$genre','$desc')";
 
-        $result = mysqli_query($conn,$sql) ;
+        $result = mysqli_query($conn,$sql) or die ("Failed: $sql");
     }
 }
 ?>
