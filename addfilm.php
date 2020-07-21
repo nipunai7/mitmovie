@@ -1,21 +1,66 @@
 <?php
 include('header.php');
-include('navbar.php');
+require('connection.php');
+$out = "";
+$flag = TRUE;
+
+if (isset($_FILES['img'])){
+    $out .= "Success <br>";
+
+    var_dump($_FILES['img']);
+
+    if($_FILES['img']['error'] == UPLOAD_ERR_OK) {
+        $out .= "No Error <br>";
+    } else {
+        $out .= "Error: ".$_FILES['img']['error'];
+        $flag = FALSE;
+    }
+
+    if ((exif_imagetype($_FILES['img']['tmp_name']))){
+        $out .= "This is a Valid image<br>";
+    }else{
+        $flag = FALSE;
+        $out .= "Not a Valid image<br>";
+    }
+
+    if($flag){
+        $ttl = $conn->real_escape_string($_POST['title']);
+        $genre = $conn->real_escape_string($_POST['genre']);
+        $year = $conn->real_escape_string($_POST['year']);
+        $desc = $conn->real_escape_string($_POST['desc']);
+        $name = $conn->real_escape_string($_FILES['img']["name"]);
+
+        $nameclr = str_replace(' ', '_', $name);
+        $newfilename = time().$nameclr;
+
+        if(!move_uploaded_file($_FILES['img']["tmp_name"], 'uploads/'.$newfilename)){
+            $out .= "Failed to upload<br>";
+        }else{
+            $out .= "File Uploaded<br>";
+        }
+
+        $sql = "INSERT INTO movieinfo (title,year,genre,img,description) VALUES ('$ttl','$year','$genre','$newfilename','$desc')";
+
+        $result = mysqli_query($conn,$sql) or die("Failed: $sql");
+    }
+}
 ?>
 
 <body class="text-center" style="background-color: rgb(241,247,252);">
+<?php include('navbar.php'); ?>
+    <form method="post" action="addfilm.php" enctype="multipart/form-data">
     <div class="text-center d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center register-photo" style="padding: 0px;">
         <div class="row d-flex form-container" style="background-color: rgba(255, 255, 255, 0.53);display:flex;">
             <div class="col-sm-6 col-md-6 text-center" style="height: 400px;">
                 <div class="row d-flex" style="padding: 10px;">
-                    <div class="col-8"><input class="d-block float-left d-xl-flex align-items-xl-center" type="file" id="uploadpath" onchange="setimage(event)"></div>
+                    <div class="col-8"><input class="d-block float-left d-xl-flex align-items-xl-center" type="file" id="uploadpath" onchange="setimage(event)" name="img"></div>
                 </div>
                 <div class="row">
                     <div class="col"><img style="max-width: 100%;max-height: 430px;" class="align-items-center align-content-center align-self-center" id="movieimg"></div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-6" style="background-color: #ffffff;padding: 15px;padding-right: 0px;padding-left: 15px;">
-                <form method="post" style="padding: 0px;max-width: 100%;padding-top: 0px;padding-right: 15px;padding-bottom: 0px;padding-left: 15px;">
+                <div style="padding: 0px;max-width: 100%;padding-top: 0px;padding-right: 15px;padding-bottom: 0px;padding-left: 15px;">
                     <h2 class="text-center"><strong>Add</strong> A Movie.</h2>
                     <div class="form-group"><input class="form-control" type="text" name="title" placeholder="Tile"></div>
                     <div class="form-group"><input class="form-control" type="text" name="genre" placeholder="Genre"></div>
@@ -23,9 +68,13 @@ include('navbar.php');
                     <div class="form-group"><textarea class="form-control" placeholder="Description" name="desc" style="min-height: 170px;"></textarea></div>
                     <div class="form-group"><button class="btn btn-primary btn-block border rounded" type="submit">Submit</button></div>
                 </form>
+</div>
             </div>
         </div>
     </div>
+    <?php 
+    echo $out;
+    ?>
     <script src="assets/js/jquery.min.js"></script>
   
     <script>
