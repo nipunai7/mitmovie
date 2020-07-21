@@ -41,7 +41,7 @@ if (isset($_FILES['img'])){
 
         $sql = "INSERT INTO Movies (title,year,genre,img,description) VALUES ('$ttl','$year','$genre','$newfilename','$desc')";
 
-        $result = mysqli_query($conn,$sql) or die("Failed: $sql");
+        $result = mysqli_query($conn,$sql) ;
     }
 }
 ?>
