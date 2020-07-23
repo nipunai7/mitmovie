@@ -1,0 +1,91 @@
+body {
+  border-radius: 5px;
+  background-color: #0B0C10;
+  padding: 35px;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+}
+*/
+.rate {
+    float: right;
+    height: 46px;
+    padding: 0 0px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#1F2833;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+textarea {
+  width: 75%;
+  height: 80px;
+  padding: 12px 20px;
+  display: inline-block;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #C5C6C7;
+  font-family:  Arial;
+}
+
+label{
+     font-size: 19px;
+    font-family: Arial;
+    font-weight: medium;
+    color: #66FCF1
+}
+
+input[name=send], select{
+    
+  width: 5%;
+  height: 30px;
+  background-color: #1F2833;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  padding: center;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+input[name=send]:hover {
+  background-color: #45A29E;
+
+
+}
+
+
+/* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
