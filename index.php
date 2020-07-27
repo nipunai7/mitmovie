@@ -96,7 +96,7 @@
             
             
             <div class="row articles" data-aos="slide-up" data-aos-once="true" width="1920" height="1080"  >
-                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/eot.jpg"></a>
+                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/moon.jpg"></a>
                     <h3 class="name">Article Title</h3>
                   </div>
 
