@@ -24,7 +24,27 @@ include('addmoviedb.php');
                     <div class="form-group"><input class="form-control" type="text" name="genre" placeholder="Genre" id="genre"></div>
                     <div class="form-group"><input class="form-control" type="text" name="year" placeholder="Year" id="year"></div>
                     <div class="form-group"><textarea class="form-control" placeholder="Description" id="desc" name="desc" style="min-height: 170px;"></textarea></div>
+
+                    <div class="row">
+                    <div class="col-md-6">
+                    <input class="d-block float-left d-xl-flex align-items-xl-center" type="file" id="uploadpath1" onchange="setimage1(event)" name="img1">
+                    <img style="max-width: 30%;max-height: 430px;" class="align-items-center align-content-center align-self-center" id="movieimg1">
+                    </div>
+                    <div class="col-md-6">
+                    <input class="d-block float-left d-xl-flex align-items-xl-center" type="file" id="uploadpath2" onchange="setimage2(event)" name="img2">
+                    <img style="max-width: 30%;max-height: 430px;" class="align-items-center align-content-center align-self-center" id="movieimg2">
+                    </div>
+                    <div class="col-md-6">
+                    <input class="d-block float-left d-xl-flex align-items-xl-center" type="file" id="uploadpath3" onchange="setimage3(event)" name="img3">
+                    <img style="max-width: 30%;max-height: 430px;" class="align-items-center align-content-center align-self-center" id="movieimg3">
+                    </div>
+                    <div class="col-md-6">
+                    <input class="d-block float-left d-xl-flex align-items-xl-center" type="file" id="uploadpath4" onchange="setimage4(event)" name="img4">
+                    <img style="max-width: 30%;max-height: 430px;" class="align-items-center align-content-center align-self-center" id="movieimg4">
+                    </div>
+                    </div>
                     <div class="form-group"><button class="btn btn-primary btn-block border rounded" type="submit">Submit</button></div>
+
                 </form>
 </div>
             </div>
@@ -38,6 +58,34 @@ include('addmoviedb.php');
     <script>
             var setimage = function(event) {
                 var output = document.getElementById('movieimg');
+                output.src = URL.createObjectURL(event.target.files[0]);
+                output.onload = function() {
+                URL.revokeObjectURL(output.src)
+                }
+            };  
+            var setimage1 = function(event) {
+                var output = document.getElementById('movieimg1');
+                output.src = URL.createObjectURL(event.target.files[0]);
+                output.onload = function() {
+                URL.revokeObjectURL(output.src)
+                }
+            };  
+            var setimage2 = function(event) {
+                var output = document.getElementById('movieimg2');
+                output.src = URL.createObjectURL(event.target.files[0]);
+                output.onload = function() {
+                URL.revokeObjectURL(output.src)
+                }
+            };  
+            var setimage3 = function(event) {
+                var output = document.getElementById('movieimg3');
+                output.src = URL.createObjectURL(event.target.files[0]);
+                output.onload = function() {
+                URL.revokeObjectURL(output.src)
+                }
+            };  
+            var setimage4 = function(event) {
+                var output = document.getElementById('movieimg4');
                 output.src = URL.createObjectURL(event.target.files[0]);
                 output.onload = function() {
                 URL.revokeObjectURL(output.src)

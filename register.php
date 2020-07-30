@@ -1,6 +1,5 @@
 <?php 
 include('header.php'); 
-include('server.php');
 
 if(isset($_POST['submit'])){
     echo 'User Added';
@@ -14,7 +13,7 @@ if(isset($_POST['submit'])){
         <div class="form-container" background-color="black">
             <div class="image-holder col-sm-0 col-md-6"></div>
             <form method="POST" action="register.php" name="reg" class="col-sm-12 col-md-6">
-            <?php #include('errors.php'); ?>
+            <?php include('server.php'); ?>
                 <h2 class="text-center"><strong>Create</strong> an account.</h2>
                 <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Username" id="name"></div>
                 <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email" id="email"></div>

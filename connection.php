@@ -1,6 +1,6 @@
 <?php
 
-$servername = "139.162.10.226";
+$servername = "localhost";
 $username = "mitmovie";
 $password = "mitmovie";
 $dbname = "mitmovie";

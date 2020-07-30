@@ -1,4 +1,11 @@
-<?php include ('header.php'); ?>
+<?php 
+
+include('header.php'); 
+
+$sql = "SELECT * FROM movies";
+$result = mysqli_query($conn,$sql) or die ("Conn failed: $sql");
+
+?>
 <link rel="stylesheet" href="assets/bootstrap/css/slideshow.css">
 <meta http-equiv="X-UA-Compatible" content="ie-edge">
 <body>
@@ -67,21 +74,6 @@
 		</div><!-- End of Wrapper For Slides -->
 
 	</div> 
-
-    <!-- <div class="simple-slider">
-        <div class="swiper-container">
-            <div class="swiper-wrapper"style="transition: all 0.25s ease 0s; width: 3540px; transform: translate3d(-1180px, 0px, 0px);" >
-                <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/pic3.jpg&quot;);min-height: 920px;"></div>
-                <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/SW.jpg&quot;);min-height: 920px;"></div>
-                <div data-aos="zoom-out" data-aos-duration="800" data-aos-once="true" class="swiper-slide" style="background-image: url(&quot;assets/img/VEN.jpg&quot;);min-height: 920px;"></div>
-            </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </div> -->
-
-
 <!-- ___________________________________________________________ END OF SLIDER__________________________________________________________________________________________________________-->
 
 
@@ -90,59 +82,25 @@
         <div class="container1"  >
             <div class="intro">
                 <h2 class="text-center" data-aos="zoom-in-down" data-aos-once="true">Latest Movies</h2>
-                <p class="text-center" data-aos="zoom-in-down" data-aos-once="true">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+                <p class="text-center" data-aos="zoom-in-down" data-aos-once="true">Find your next favourite movie </p>
             </div>
            
             
             
             <div class="row articles" data-aos="slide-up" data-aos-once="true" width="1920" height="1080"  >
-                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/moon.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                  </div>
-
-                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/jw.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                    </div>
-
-                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/rock.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                    </div>
-                    
-                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/FF.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                  </div>
-
-                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/BAT.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                    </div>
-
-                 <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/MON.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                   </div>
-
-                  <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/REV.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                    </div>
-
-                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/JL.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                    </div>
-
-                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/TUR.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                    </div>
-
-                    <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/FF.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                  </div>
-
-                <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/BAT.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                    </div>
-
-                 <div class="col-sm-6 col-md-2 item"><a href="#"><img class="mnk-image" src="assets/img/MON.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                   </div>    
+              
+                   <?php
+                   if (mysqli_num_rows($result)>0){
+                       while($row = mysqli_fetch_array($result)) {
+                           echo "
+                           <div class='col-sm-6 col-md-3 item'><a href='movie-single.php?ID={$row['movieid']}'><img class='mnk-image' src='assets/img/{$row['img']}'></a>
+                           <h3 class='name' style='text-align:center'>{$row['title']}</h3>
+                          </div>
+                        ";
+                       }
+                   }
+                   
+                   ?>
         </div>
     </div>
 </div>

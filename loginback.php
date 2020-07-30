@@ -1,6 +1,5 @@
-<?php 
-
-include('header.php'); 
+<?php
+// Initialize the session
 session_start();
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
@@ -18,14 +17,14 @@ $username_err = $password_err = "";
 if($_SERVER["REQUEST_METHOD"] == "POST"){
  
     // Check if username is empty
-    if(empty($_POST["username"])){
+    if(empty(trim($_POST["username"]))){
         $username_err = "Please enter username.";
     } else{
         $username = ($_POST["username"]);
     }
     
     // Check if password is empty
-    if(empty($_POST["password"])){
+    if(empty(($_POST["password"]))){
         $password_err = "Please enter your password.";
     } else{
         $password = ($_POST["password"]);
@@ -85,24 +84,4 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Close connection
     mysqli_close($conn);
 }
-
 ?>
-
-<body style="background-color: black;">
-<?php include('navbar.php'); ?>
-    <div class="login-clean" >
-    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-            <h2 class="sr-only">Login Form</h2>
-            <div class="illustration"><i class="icon ion-ios-navigate"></i></div>
-            <div class="form-group"><input class="form-control" type="text" name="username" placeholder="username"></div>
-            <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-            <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password">
-            <span class="help-block"><?php echo $password_err; ?></span></div>
-            <div class="form-group"><input type="submit" class="btn btn-primary" value="Login"></div>
-            <a class="forgot" href="#">Forgot your email or password?</a></form>
-    </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
-
-</html>

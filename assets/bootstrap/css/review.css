@@ -1,15 +1,5 @@
-body {
-  border-radius: 5px;
-  background-color: #0B0C10;
-  padding: 35px;
-}
-/* *{
-    margin: 0;
-    padding: 0;
-}
-*/
 .rate {
-    float: right;
+    float: left;
     height: 46px;
     padding: 0 0px;
 }
@@ -58,7 +48,7 @@ textarea {
   font-family:  Arial;
 }
 
-label{
+.labelrev{
      font-size: 19px;
     font-family: Arial;
     font-weight: medium;
@@ -86,6 +76,3 @@ input[name=send]:hover {
 
 
 }
-
-
-/* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
