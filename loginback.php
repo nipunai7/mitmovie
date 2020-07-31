@@ -1,87 +1,61 @@
 <?php
-// Initialize the session
-session_start();
- 
-// Check if the user is already logged in, if yes then redirect him to welcome page
-if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: index.php");
-    exit;
-}
- 
 
-// Define variables and initialize with empty values
-$username = $password = "";
-$username_err = $password_err = "";
- 
-// Processing form data when form is submitted
-if($_SERVER["REQUEST_METHOD"] == "POST"){
- 
-    // Check if username is empty
-    if(empty(trim($_POST["username"]))){
-        $username_err = "Please enter username.";
-    } else{
-        $username = ($_POST["username"]);
+if (isset($_POST['login-submit'])){
+
+    require('connection.php');
+
+    $name = $_POST['username'];
+    $password = $_POST['password'];
+
+    if (empty($name) || empty($password)){
+        header("Location: login.php?error=emptyfields");
+        exit();
     }
-    
-    // Check if password is empty
-    if(empty(($_POST["password"]))){
-        $password_err = "Please enter your password.";
-    } else{
-        $password = ($_POST["password"]);
-    }
-    
-    // Validate credentials
-    if(empty($username_err) && empty($password_err)){
-        // Prepare a select statement
-        $sql = "SELECT id, name, pwd FROM users WHERE username = ?";
+    else{
+        $sql = "SELECT * FROM users WHERE name=?";
+        $stmt = mysqli_stmt_init($conn);
         
-        if($stmt = mysqli_prepare($conn, $sql)){
-            // Bind variables to the prepared statement as parameters
-            mysqli_stmt_bind_param($stmt, "s", $param_username);
-            
-            // Set parameters
-            $param_username = $username;
-            
-            // Attempt to execute the prepared statement
-            if(mysqli_stmt_execute($stmt)){
-                // Store result
-                mysqli_stmt_store_result($stmt);
-                
-                // Check if username exists, if yes then verify password
-                if(mysqli_stmt_num_rows($stmt) == 1){                    
-                    // Bind result variables
-                    mysqli_stmt_bind_result($stmt, $id, $username, $hashed_password);
-                    if(mysqli_stmt_fetch($stmt)){
-                        if(password_verify($password, $hashed_password)){
-                            // Password is correct, so start a new session
-                            session_start();
-                            
-                            // Store data in session variables
-                            $_SESSION["loggedin"] = true;
-                            $_SESSION["id"] = $id;
-                            $_SESSION["username"] = $username;                            
-                            
-                            // Redirect user to welcome page
-                            header("location: index.php");
-                        } else{
-                            // Display an error message if password is not valid
-                            $password_err = "The password you entered was not valid.";
-                        }
-                    }
-                } else{
-                    // Display an error message if username doesn't exist
-                    $username_err = "No account found with that username.";
-                }
-            } else{
-                echo "Oops! Something went wrong. Please try again later.";
-            }
-
-            // Close statement
-            mysqli_stmt_close($stmt);
+        if(!mysqli_stmt_prepare($stmt,$sql)){
+            header("Location: login.php?error=sqlerror");
+            exit();
         }
+        else{
+            mysqli_stmt_bind_param($stmt,"s", $name);
+            mysqli_stmt_execute($stmt);
+            $result = mysqli_stmt_get_result($stmt);
+
+            if ($row = mysqli_fetch_assoc($result) ){
+                $pwdCheck = password_verify($password, $row['pwd']);
+
+                if ($pwdCheck == false){
+                    header("Location: login.php?error=wrongpassword");
+                    exit();
+                }
+                else if ($pwdCheck == true){
+                    session_start();
+                    $_SESSION['userID']= $row['id'];
+                    $_SESSION['userName']= $row['name'];
+
+                    header("Location: index.php");
+                    exit();
+
+                }
+                else{
+                    header("Location: login.php?error=wrongpassword");
+                    exit();
+                }
+            }
+            else{
+                header("Location: login.php?error=nouser");
+                exit();
+            }
+        }
+
     }
-    
-    // Close connection
-    mysqli_close($conn);
 }
+else{
+    header("Location: index.php");
+    exit();
+}
+
 ?>
