@@ -1,8 +1,8 @@
 <?php
 
-$servername = "localhost";
-$username = "nipuna";
-$password = "samsungpl120";
+$servername = "http://139.162.10.226";
+$username = "mitmovie";
+$password = "mitmovie";
 $dbname = "mitmovie";
 
 
