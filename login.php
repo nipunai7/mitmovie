@@ -6,9 +6,7 @@ include('header.php');
 
 <body style="background-color: black;">
 <?php include('navbar.php'); ?>
-    <div class="login-clean" style="
-    border-top-width: 50px;
-    margin-top: 175px;" >
+    <div class="login-clean" style="border-top-width: 50px;margin-top: 175px;" >
     <form action="loginback.php" method="POST">
             <h2 class="sr-only">Login Form</h2>
             <div class="illustration"><i class="icon ion-ios-navigate"></i></div>

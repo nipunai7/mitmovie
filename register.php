@@ -5,7 +5,7 @@ include('header.php');
 <body>
 <?php include('navbar.php'); ?>
     <div class="register-photo" style="padding-top: 3%;">
-        <div class="form-container" background-color="black">
+        <div class="form-container" background-color="black" style="margin-top: 50px;">
             <div class="image-holder col-sm-0 col-md-6"></div>
             <form method="POST" action="register.php" name="reg" class="col-sm-12 col-md-6">
             <?php include('server.php'); ?>
