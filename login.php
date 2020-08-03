@@ -4,7 +4,7 @@ include('header.php');
 
 ?>
 
-<body style="background-color: black;">
+<body style="background-color: black; background-image: url("../../img/SW.jpg");">
 <?php include('navbar.php'); ?>
     <div class="login-clean" style="border-top-width: 50px;margin-top: 175px;" >
     <form action="loginback.php" method="POST">
