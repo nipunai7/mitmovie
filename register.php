@@ -2,7 +2,7 @@
 include('header.php'); 
 ?>
 
-<body style="background-color: black; background-image: url("../../img/SW.jpg");">
+<body style="background-color: black; background-image: url("SW.jpg");">
 <?php include('navbar.php'); ?>
     <div class="register-photo" style="padding-top: 3%;">
         <div class="form-container" background-color="black" style="margin-top: 50px;">
