@@ -22,6 +22,7 @@ $name = $conn->real_escape_string($_POST['name']);
 $email = $conn->real_escape_string($_POST['email']);
 $password_1 = $conn->real_escape_string($_POST['password']);
 $password_2 = $conn->real_escape_string($_POST['password-repeat']);
+$error1="";
 
 if (empty($name) || empty($email) || empty($password_1) || empty($password_2)){
   header("Location: register.php?error=emptyfields&name=".$name."&email=".$email);
@@ -50,6 +51,7 @@ else{
     $results = mysqli_stmt_num_rows($stmt);
     if ($results >0){
       header("Location: register.php?error=userexist&email=".$email);
+
       exit();
     }
     else{
