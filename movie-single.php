@@ -21,11 +21,13 @@ if (isset($_POST['submit'])){
     $user_id = "";
     if (isset($_SESSION['userID'])){
         $user_id = ($_SESSION['userID']);
+        $username = ($_SESSION['userName']);
     }else{
-        $user_id = "Anonymous";
+        $user_id = "None";
+        $username = "Anonymous";
     }
 
-    $sql2 = "INSERT INTO reviews (movieid, user, review) VALUES ('$ID','$user_id','$review')";
+    $sql2 = "INSERT INTO reviews (movieid, userid, review, username) VALUES ('$ID','$user_id','$review', '$username')";
     if ($conn->query($sql2) === TRUE) {
         $conn -> close();
           } else {
@@ -125,18 +127,22 @@ if (isset($_POST['submit'])){
                                 </button>
                             </div>
                         </div>
-                        <?php
+
+                    </div>
+                </form>
+                <?php
                    if (mysqli_num_rows($result3)>0){
                        while($row2 = mysqli_fetch_array($result3)) {
                            echo "
-                           
-                           <div class='col-7' style='width: 100%;'><label class='col-form-label'
-                                   style='font-size: 20px;'>{$row2['user']}</label></div>
+                           <div class='row' style='padding-bottom: 20px;'>
+                           <div class='col-md-12' style='width: 100%;background-color:#4e4e54;border-radius: 10px'><label class='col-form-label'
+                                   style='font-size: 20px;'>{$row2['username']}</label></div>
                                 <br>
-                           <div class='col-12'>
+                           <div class='col-md-12'>
                                <p
-                                   style='width: 100%;height: 150px;background-color: rgb(0,0,0);color: rgb(255,255,255);'>
+                                   style='width: 100%;height: 150px;background-color: rgb(97 97 97 / 32%);color: rgb(255,255,255);padding-left: 10px;'>
                                    {$row2['review']}</p>
+                           </div>
                            </div>
                        
                         ";
@@ -144,8 +150,6 @@ if (isset($_POST['submit'])){
                    }
                    
                    ?>
-                    </div>
-                </form>
             </div>
         </div>
         <div class="rateyo"></div>
