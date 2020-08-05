@@ -7,7 +7,7 @@ if (isset($_GET['ID'])){
     $result = mysqli_query($conn, $sql) or die ("Conn error: $sql");
     $row = mysqli_fetch_array($result);
 
-if(isset($GET_['submit'])){
+    if (isset($_POST['submit'])){
     echo "Review Added";
 }
     
@@ -79,13 +79,10 @@ if(isset($GET_['submit'])){
             </div>
         </div>
 
-        <div>
+        <div class="row">
+            <div class="col-md-12" style="width: 100%;"><label class="col-form-label"
+                    style="font-size: 28px;">Reviews</label>
 
-            <div>
-                <div class="row">
-                    <div class="col-md-12" style="width: 100%;"><label class="col-form-label"
-                            style="font-size: 28px;">Reviews</label></div>
-                </div>
                 <form method="POST" action="<?php echo "movie-single.php?ID={$row['movieid']}";?>">
                     <div class="row">
                         <div class="col-sm-6 col-md-3">
@@ -93,8 +90,8 @@ if(isset($GET_['submit'])){
                         </div>
                         <div class="col-sm-6 col-md-9">
 
-                            <!-- <div class="rateyo" id="rating" data-rateyo-rating="4" data-rateyo-num-stars="5"
-                                data-rateyo-score="3"></div> -->
+                            <div class="rateyo" id="rating" data-rateyo-rating="4" data-rateyo-num-stars="5"
+                                data-rateyo-score="3"></div>
 
                             <span class='result'>0</span>
                             <input type="hidden" name-"rating">
@@ -104,16 +101,17 @@ if(isset($GET_['submit'])){
                                 <input type="submit" name="send" value="Send"
                                     style="margin-left: 16px;margin-top: 56px;">
                             </div>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
-    </div>
-    <div class="rateyo"></div>
+        <div class="rateyo"></div>
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.rateyo.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.rateyo.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 </body>
 
 </html>
