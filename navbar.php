@@ -1,13 +1,14 @@
 <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
-				<div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-					<div class="collapse navbar-collapse" id="navcol-1">
-						<ul class="nav navbar-nav flex-grow-1 justify-content-between" >
-							<li class="nav-item" role="presentation" style="width: 54px;background-color: cornsilk;border-radius: 33px;"><a class="nav-link" href="index.php"><img src="assets/img/Untitled-1.png"></a></li>
-							<li class="nav-item" role="presentation"><a class="nav-link" href="index.php">Home</a></li>
-							<li class="nav-item" role="presentation"><a class="nav-link" href="register.php">Sign Up</a></li>
-							
-							
-							<?php 
+    <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span
+                class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav flex-grow-1 justify-content-between">
+                <li class="nav-item" role="presentation"
+                    style="width: 54px;background-color: cornsilk;border-radius: 33px;"><a class="nav-link"
+                        href="index.php"><img src="assets/img/Untitled-1.png"></a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="index.php">Home</a></li>
+
+                <?php 
 
 								if (isset($_SESSION['userID'])){
 									echo "							
@@ -19,14 +20,15 @@
 									";
 								}else{
 									echo "
+									<li class='nav-item' role='presentation'><a class='nav-link' href='register.php'>Sign Up</a></li>
 									<li class='nav-item' role='presentation' ><a class='nav-link' href='login.php'>Login</a></li>
 
 									";
 								}
 
 							?>
-						
-						</ul>
-					</div>
-				</div>
-			</nav>
+
+            </ul>
+        </div>
+    </div>
+</nav>

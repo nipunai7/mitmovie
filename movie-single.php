@@ -29,11 +29,11 @@ if (isset($_POST['submit'])){
 
     $sql2 = "INSERT INTO reviews (movieid, userid, review, username) VALUES ('$ID','$user_id','$review', '$username')";
     if ($conn->query($sql2) === TRUE) {
-        $conn -> close();
+        // mysqli_close($conn);
           } else {
         echo "Error: " . $sql2 . "<br>" . $conn->error;
       }
-
+      
 }
 
 ?>
