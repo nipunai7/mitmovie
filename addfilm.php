@@ -7,7 +7,7 @@ include('addmoviedb.php');
 <body class="text-center" style="background-color: rgb(241,247,252);">
 <?php include('navbar.php'); ?>
     <form method="post" action="addfilm.php" enctype="multipart/form-data">
-    <div class="text-center d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center register-photo" style="padding: 0px;">
+    <div class="text-center d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center register-photo" style="padding: 0px;margin-top:100px;">
         <div class="row d-flex form-container" style="background-color: rgba(255, 255, 255, 0.53);display:flex;">
             <div class="col-sm-6 col-md-6 text-center" style="height: 400px;">
                 <div class="row d-flex" style="padding: 10px;">
