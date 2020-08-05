@@ -7,16 +7,31 @@ if (isset($_GET['ID'])){
     $result = mysqli_query($conn, $sql) or die ("Conn error: $sql");
     $row = mysqli_fetch_array($result);
 
-    if (isset($_POST['submit'])){
-    echo "Review Added";
-    $name = $conn->real_escape_string($_POST['name']);
-$email = $conn->real_escape_string($_POST['email']);
-$password_1 = $conn->real_escape_string($_POST['password']);
-$password_2 = $conn->real_escape_string($_POST['password-repeat']);
-}
+    $sql3 = "SELECT * FROM reviews WHERE movieid='$ID'";
+    $result3 = mysqli_query($conn, $sql3) or die ("Conn error: $sql3");
+    
     
 }else{
-    //header('Location: index.php');
+    header('Location: index.php');
+}
+
+if (isset($_POST['submit'])){
+    echo "Review Added";
+    $review = $conn->real_escape_string($_POST['review']);
+    $user_id = "";
+    if (isset($_SESSION['userID'])){
+        $user_id = ($_SESSION['userID']);
+    }else{
+        $user_id = "Anonymous";
+    }
+
+    $sql2 = "INSERT INTO reviews (movieid, user, review) VALUES ('$ID','$user_id','$review')";
+    if ($conn->query($sql2) === TRUE) {
+        $conn -> close();
+          } else {
+        echo "Error: " . $sql2 . "<br>" . $conn->error;
+      }
+
 }
 
 ?>
@@ -102,10 +117,33 @@ $password_2 = $conn->real_escape_string($_POST['password-repeat']);
 
                             <div class="row">
                                 <textarea rows="4" name="review" placeholder="leave your comment..."></textarea><br>
-                                <input type="submit" name="send" value="Send"
-                                    style="margin-left: 16px;margin-top: 56px;">
+                                <!-- <input type="submit" name="submit" value="Send"
+                                    style="margin-left: 16px;margin-top: 56px;"> -->
+                                <button type='submit' name='submit'
+                                    style='background-color:#ad6507;border-radius:6px;max-height:40px'>
+                                    <li class='nav-item' role='presentation'><a class='nav-link'>Submit</a></li>
+                                </button>
                             </div>
                         </div>
+                        <?php
+                   if (mysqli_num_rows($result3)>0){
+                       while($row2 = mysqli_fetch_array($result3)) {
+                           echo "
+                           
+                           <div class='col-7' style='width: 100%;'><label class='col-form-label'
+                                   style='font-size: 20px;'>{$row2['user']}</label></div>
+                                <br>
+                           <div class='col-12'>
+                               <p
+                                   style='width: 100%;height: 150px;background-color: rgb(0,0,0);color: rgb(255,255,255);'>
+                                   {$row2['review']}</p>
+                           </div>
+                       
+                        ";
+                       }
+                   }
+                   
+                   ?>
                     </div>
                 </form>
             </div>
