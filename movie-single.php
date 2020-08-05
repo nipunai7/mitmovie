@@ -9,6 +9,10 @@ if (isset($_GET['ID'])){
 
     if (isset($_POST['submit'])){
     echo "Review Added";
+    $name = $conn->real_escape_string($_POST['name']);
+$email = $conn->real_escape_string($_POST['email']);
+$password_1 = $conn->real_escape_string($_POST['password']);
+$password_2 = $conn->real_escape_string($_POST['password-repeat']);
 }
     
 }else{
