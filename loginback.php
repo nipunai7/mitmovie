@@ -35,6 +35,7 @@ if (isset($_POST['login-submit'])){
                     session_start();
                     $_SESSION['userID']= $row['id'];
                     $_SESSION['userName']= $row['name'];
+                    $_SESSION['isAdmin']=$row['admin'];
 
                     header("Location: index.php");
                     exit();

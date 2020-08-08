@@ -11,13 +11,22 @@
                 <?php 
 
 								if (isset($_SESSION['userID'])){
+
+									if (isset($_SESSION['isAdmin'])){
+										echo "
+										<button type='submit' style='background-color:#0a60c2;border-radius:6px;max-height:38px;'><li class='nav-item' role='presentation'><a class='nav-link' href='addfilm.php'>Add Movies</a></li></button>
+										";
+									}else{
+										echo "";
+									}
+
 									echo "							
+									<li class='nav-item' role='presentation'><a class='nav-link' href='profile.php?ID={$_SESSION['userID']}' style='float:right;'>Welcome, {$_SESSION['userName']}</a></li>
 									<form action='logout.php' method='POST'>
 									<button type='submit' name='logout-submit' style='background-color:#da0808;border-radius:6px;'><li class='nav-item' role='presentation'><a class='nav-link'>Logout</a></li></button>
 									</form>
-									<button type='submit' style='background-color:#0a60c2;border-radius:6px;max-height:38px;'><li class='nav-item' role='presentation'><a class='nav-link' href='addfilm.php'>Add Movies</a></li></button>
-									<li class='nav-item' role='presentation'><a class='nav-link' href='index.php?ID={$_SESSION['userID']}' style='float:right;'>Welcome, {$_SESSION['userName']}</a></li>
 									";
+
 								}else{
 									echo "
 									<li class='nav-item' role='presentation'><a class='nav-link' href='register.php'>Sign Up</a></li>

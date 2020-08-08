@@ -3,6 +3,7 @@
 include('header.php'); 
 
 ?>
+</head>
 
 <body style="background-color: black; background-image: url("../../img/SW.jpg");">
 <?php include('navbar.php'); ?>

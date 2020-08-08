@@ -27,11 +27,10 @@
     <link rel="stylesheet" href="assets/bootstrap/css/jquery.rateyo.min.css">
     <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/main.css">
-
-</head>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 
 <?php
 
-include('connection.php');
+require_once('connection.php');
 
 ?>

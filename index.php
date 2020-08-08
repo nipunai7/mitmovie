@@ -6,6 +6,7 @@ $sql = "SELECT * FROM movies";
 $result = mysqli_query($conn,$sql) or die ("Conn failed: $sql");
 
 ?>
+</head>
 <link rel="stylesheet" href="assets/bootstrap/css/slideshow.css">
 <meta http-equiv="X-UA-Compatible" content="ie-edge">
 <body>

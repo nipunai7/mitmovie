@@ -29,7 +29,7 @@ if (isset($_POST['submit'])){
 
     $sql2 = "INSERT INTO reviews (movieid, userid, review, username) VALUES ('$ID','$user_id','$review', '$username')";
     if ($conn->query($sql2) === TRUE) {
-        // mysqli_close($conn);
+        header("Location: movie-single.php?ID=$ID");
           } else {
         echo "Error: " . $sql2 . "<br>" . $conn->error;
       }
@@ -37,6 +37,7 @@ if (isset($_POST['submit'])){
 }
 
 ?>
+</head>
 
 <body style="background-color: rgb(0,0,0);color: rgb(255,255,255);font-family: Aldrich, sans-serif;">
     <?php include('navbar.php'); ?>
@@ -92,7 +93,7 @@ if (isset($_POST['submit'])){
                         <div class="col-md-12"><label class="col-form-label"
                                 style="font-size: 27px;">Description</label></div>
                         <div class="col">
-                            <p style="width: 100%;height: 350px;background-color: rgb(0,0,0);color: rgb(255,255,255);">
+                            <p style="width: 100%;height: 200px;background-color: rgb(0,0,0);color: rgb(255,255,255);">
                                 <?php echo $row['description'] ?></p>
                         </div>
                     </div>
@@ -105,17 +106,17 @@ if (isset($_POST['submit'])){
                     style="font-size: 28px;">Reviews</label>
 
                 <form method="POST" action="<?php echo "movie-single.php?ID={$row['movieid']}";?>">
-                    <div class="row">
+                    <div class="row" style="padding-bottom:16px;">
                         <div class="col-sm-6 col-md-3">
                             <label class="labelrev">Add a Review</label>
                         </div>
                         <div class="col-sm-6 col-md-9">
 
-                            <div class="rateyo" id="rating" data-rateyo-rating="4" data-rateyo-num-stars="5"
+                            <!-- <div class="rateyo" id="rating" data-rateyo-rating="4" data-rateyo-num-stars="5"
                                 data-rateyo-score="3"></div>
 
                             <span class='result'>0</span>
-                            <input type="hidden" name-"rating">
+                            <input type="hidden" name-"rating"> -->
 
                             <div class="row">
                                 <textarea rows="4" name="review" placeholder="leave your comment..."></textarea><br>
