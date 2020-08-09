@@ -122,7 +122,7 @@ $result = mysqli_query($conn,$sql) or die ("Conn failed: $sql");
                                         <div class="col-sm-6 col-md-3 item">
                                             <h3>About</h3>
                                             <ul>
-                                                <li><a href="#">Company</a></li>
+                                                <li><a href="https://www.facebook.com/Kevin.Linro">Company</a></li>
                                                 <li><a href="#">Team</a></li>
                                                 <li><a href="#">Careers</a></li>
                                             </ul>
